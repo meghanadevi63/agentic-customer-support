@@ -1,0 +1,23 @@
+# Environments
+.env
+venv/
+env/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Vector Database
+chroma_db/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Output files
+all_loaded_content.txt
+guide.txt
+test_output.txt
+loaded_terminal_output.txt
