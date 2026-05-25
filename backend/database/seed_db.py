@@ -7,12 +7,13 @@ from pymongo import MongoClient
 from pymongo.server_api import ServerApi
 
 
-MONGO_URI = os.getenv(
-    "MONGO_URI", 
-    "mongodb+srv://chandumeghanadevi123:CHANDU632004@cluster0.tto7ema.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-)
+MONGO_URI = os.getenv("MONGO_URI")
 
 def seed_database():
+    if not MONGO_URI:
+        print("[ERROR] MONGO_URI not found in environment variables. Check your .env file.")
+        return
+
     print("[INFO] Connecting to MongoDB Atlas...")
     
     # Connect to the cluster
