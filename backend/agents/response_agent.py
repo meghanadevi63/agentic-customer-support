@@ -64,7 +64,7 @@ Rules:
 9. Only say "I could not find enough information" if context and profile are truly unrelated.
 10. Always maintain a polite and empathetic tone.
 11. Never mention escalation tickets or specialist reviews in this response.
-12. Never say "contact me"; say "contact the support team" instead.
+12. Never say "contact me"; say "let me help you to contact the support team" instead.
 """
 
         result = self.llm.invoke(prompt)

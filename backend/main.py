@@ -8,7 +8,8 @@ from backend.tools.crm_tool import (
     fetch_customer_profile, 
     save_interaction, 
     get_customer_sessions, 
-    get_thread_transcript
+    get_thread_transcript,
+    save_feedback
 )
 
 app = FastAPI(
@@ -31,6 +32,13 @@ class ChatRequest(
 
     customer_id: str
 
+class FeedbackRequest(BaseModel):
+    customer_id: str
+    thread_id: str
+    rating: int
+    comment: str = ""
+
+
 
 @app.get("/")
 def home():
@@ -41,6 +49,21 @@ def home():
 
         "Customer Support API running"
     }
+
+
+
+@app.post("/feedback")
+def submit_feedback(request: FeedbackRequest):
+    """Endpoint to save user rating to MongoDB."""
+    fb_id = save_feedback(
+        customer_id=request.customer_id,
+        thread_id=request.thread_id,
+        rating=request.rating,
+        comment=request.comment
+    )
+    if fb_id:
+        return {"status": "success", "feedback_id": fb_id}
+    return {"status": "error", "message": "Failed to save to database"}
 
 @app.get("/history/sessions/{customer_id}")
 def sessions(customer_id: str):

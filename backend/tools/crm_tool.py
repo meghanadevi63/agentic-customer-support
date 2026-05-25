@@ -120,3 +120,29 @@ def create_atlas_ticket(customer_id: str, thread_id: str, issue: str):
         return None
     finally:
         db.client.close()
+
+
+
+def save_feedback(customer_id: str, thread_id: str, rating: int, comment: str = ""):
+    """
+    Saves user feedback/rating to the MongoDB feedback collection.
+    """
+    db = get_db()
+    try:
+        feedback_id = f"FBK{random.randint(10000, 99999)}"
+        doc = {
+            "_id": feedback_id,
+            "feedback_id": feedback_id,
+            "customer_id": customer_id,
+            "thread_id": thread_id,
+            "rating": rating,
+            "comment": comment,
+            "timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat()
+        }
+        db["feedback"].insert_one(doc)
+        return feedback_id
+    except Exception as e:
+        print(f"[ERROR] Failed to save feedback: {e}")
+        return None
+    finally:
+        db.client.close()
