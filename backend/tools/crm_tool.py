@@ -58,7 +58,7 @@ def save_interaction(customer_id: str, thread_id: str, query: str, response: str
     finally:
         db.client.close()
 
-# backend/tools/crm_tool.py (Add these functions)
+
 
 def get_customer_sessions(customer_id: str):
     """
@@ -92,5 +92,31 @@ def get_thread_transcript(thread_id: str):
         for m in messages:
             m.pop("_id", None)
         return messages
+    finally:
+        db.client.close()
+
+
+def create_atlas_ticket(customer_id: str, thread_id: str, issue: str):
+    """
+    Inserts a real ticket document into the MongoDB tickets collection.
+    """
+    db = get_db()
+    try:
+        ticket_id = f"TKT-{random.randint(10000, 99999)}"
+        new_ticket = {
+            "_id": ticket_id,
+            "ticket_id": ticket_id,
+            "customer_id": customer_id,
+            "thread_id": thread_id,
+            "issue": issue,
+            "status": "Open",
+            "priority": "HIGH",
+            "created_at": datetime.datetime.now(datetime.timezone.utc).isoformat()
+        }
+        db["tickets"].insert_one(new_ticket)
+        return ticket_id
+    except Exception as e:
+        print(f"[ERROR] Database insertion failed: {e}")
+        return None
     finally:
         db.client.close()
