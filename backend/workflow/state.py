@@ -1,12 +1,18 @@
 # backend/workflow/state.py
 
-from typing import TypedDict, List, Optional
+from typing import Any, TypedDict, List, Optional,Dict
 
 
 class SupportState(TypedDict):
 
     query: str
 
+    customer_id: str
+
+    thread_id: str
+    
+    customer_profile: Optional[Dict[str, Any]]
+    
     intent: Optional[str]
 
     confidence: Optional[float]
@@ -19,7 +25,7 @@ class SupportState(TypedDict):
     
     escalation_required: bool
 
-    conversation_history: List[str]
+    conversation_history: List[dict]
 
     next_node: Optional[str]
 

@@ -4,7 +4,12 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 
 from backend.workflow.graph import graph
-
+from backend.tools.crm_tool import (
+    fetch_customer_profile, 
+    save_interaction, 
+    get_customer_sessions, 
+    get_thread_transcript
+)
 
 app = FastAPI(
 
@@ -24,6 +29,8 @@ class ChatRequest(
 
     thread_id:str
 
+    customer_id: str
+
 
 @app.get("/")
 def home():
@@ -35,6 +42,16 @@ def home():
         "Customer Support API running"
     }
 
+@app.get("/history/sessions/{customer_id}")
+def sessions(customer_id: str):
+    """Fetch all unique past chat threads for a specific customer."""
+    return get_customer_sessions(customer_id)
+
+
+@app.get("/history/transcript/{thread_id}")
+def transcript(thread_id: str):
+    """Fetch the full message list for a specific conversation thread."""
+    return get_thread_transcript(thread_id)
 
 @app.post(
     "/chat"
@@ -43,11 +60,17 @@ def chat(
     request: ChatRequest
 ):
 
-
+    profile = fetch_customer_profile(request.customer_id)
     state = {
 
         "query":
         request.query,
+
+        "thread_id": request.thread_id, 
+
+        "customer_id": request.customer_id, 
+        
+        "customer_profile": profile,      
 
         "intent":
         None,
@@ -130,6 +153,15 @@ def chat(
         config=config
     )
 
+
+    # --- NEW: Save the interaction to MongoDB Atlas after response is generated ---
+    save_interaction(
+        customer_id=request.customer_id,
+        thread_id=request.thread_id,
+        query=request.query,
+        response=result["response"],
+        intent=result["intent"]
+    )
 
     return {
 
