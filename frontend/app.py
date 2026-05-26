@@ -33,7 +33,7 @@ def load_selected_chat(thread_id):
                     "content": m['bot_response'], 
                     "intent": m.get("intent"),
                     "trace": m.get("trace", []),
-                    "feedback_submitted": True  # Hide buttons for old history
+                    "feedback_submitted": True  
                 })
             st.session_state.messages = loaded_messages
             st.session_state.thread_id = thread_id
@@ -51,7 +51,7 @@ def submit_feedback_callback(rating, customer_id, thread_id, msg_index):
         }
         f_resp = requests.post(f"{BASE_URL}/feedback", json=payload)
         if f_resp.status_code == 200:
-            # Mark only THIS specific message as rated
+            
             st.session_state.messages[msg_index]["feedback_submitted"] = True
             st.toast(f"Thank you for your {rating}-star rating!", icon="⭐")
     except Exception as e:
@@ -179,7 +179,7 @@ for i, message in enumerate(st.session_state.messages):
                             key=f"rate_{val}_{i}_{st.session_state.thread_id}",
                             on_click=submit_feedback_callback,
                             args=(val, st.session_state.customer_id, st.session_state.thread_id, i),
-                            use_container_width=True # Fills only the tiny 0.5 column
+                            use_container_width=True 
                         )
 
 # INPUT AREA 
@@ -213,7 +213,7 @@ if st.session_state.messages and st.session_state.messages[-1]["role"] == "user"
                         "intent": data["intent"],
                         "escalated": data["escalated"],
                         "trace": data.get("trace", []),
-                        "feedback_submitted": False # Initialize as False for new responses
+                        "feedback_submitted": False 
                     })
                     st.rerun()
                 else:
