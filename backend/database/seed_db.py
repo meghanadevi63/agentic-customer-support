@@ -16,12 +16,12 @@ def seed_database():
 
     print("[INFO] Connecting to MongoDB Atlas...")
     
-    # Connect to the cluster
+    
     client = MongoClient(MONGO_URI, server_api=ServerApi('1'))
     db = client["support_bot_db"]
 
     try:
-        # Ping the database to verify the connection
+        
         client.admin.command('ping')
         print("[SUCCESS] Pinged your deployment. You successfully connected to MongoDB Atlas!\n")
     except Exception as e:
@@ -29,9 +29,7 @@ def seed_database():
         print(e)
         return
 
-    # Setup paths
-    # This script is at: /backend/database/seed_db.py
-    # So the project root is two folders up.
+    
     CURRENT_DIR = Path(__file__).resolve().parent
     PROJECT_ROOT = CURRENT_DIR.parent.parent
     DATA_DIR = PROJECT_ROOT / "customer_data"

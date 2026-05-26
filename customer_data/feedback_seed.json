@@ -1,0 +1,962 @@
+[
+  {
+    "feedback_id": "FBK3075",
+    "customer_id": "CUS1003",
+    "thread_id": "THR53606",
+    "rating": 5,
+    "comment": "My refund was processed immediately after I raised the ticket. Thank you!",
+    "timestamp": "2023-01-03T04:17:47.000Z"
+  },
+  {
+    "feedback_id": "FBK3042",
+    "customer_id": "CUS1097",
+    "thread_id": "THR58937",
+    "rating": 4,
+    "comment": "Refund was processed eventually. Would appreciate quicker turnaround next time.",
+    "timestamp": "2023-01-20T11:26:39.000Z"
+  },
+  {
+    "feedback_id": "FBK3067",
+    "customer_id": "CUS1043",
+    "thread_id": "THR94071",
+    "rating": 2,
+    "comment": "Took way too long for a simple refund request. Would not recommend this experience.",
+    "timestamp": "2023-02-06T20:11:33.000Z"
+  },
+  {
+    "feedback_id": "FBK3044",
+    "customer_id": "CUS1092",
+    "thread_id": "THR67666",
+    "rating": 5,
+    "comment": "The agent was polite, knowledgeable, and sorted my billing issue right away.",
+    "timestamp": "2023-02-07T21:43:17.000Z"
+  },
+  {
+    "feedback_id": "FBK3024",
+    "customer_id": "CUS1076",
+    "thread_id": "THR61428",
+    "rating": 5,
+    "comment": "Quick response and clean resolution. Kudos to the support team.",
+    "timestamp": "2023-02-14T08:48:37.000Z"
+  },
+  {
+    "feedback_id": "FBK3076",
+    "customer_id": "CUS1053",
+    "thread_id": "THR88640",
+    "rating": 5,
+    "comment": "Excellent support! Issue was resolved within the hour. Very impressed.",
+    "timestamp": "2023-02-17T20:36:29.000Z"
+  },
+  {
+    "feedback_id": "FBK3060",
+    "customer_id": "CUS1054",
+    "thread_id": "THR98725",
+    "rating": 2,
+    "comment": "Support team was unresponsive for the first two days. Very frustrating.",
+    "timestamp": "2023-02-18T09:41:04.000Z"
+  },
+  {
+    "feedback_id": "FBK3102",
+    "customer_id": "CUS1099",
+    "thread_id": "THR89744",
+    "rating": 5,
+    "comment": "Subscription was activated instantly after the agent intervened. Great work!",
+    "timestamp": "2023-02-28T17:40:03.000Z"
+  },
+  {
+    "feedback_id": "FBK3002",
+    "customer_id": "CUS1011",
+    "thread_id": "THR98964",
+    "rating": 3,
+    "comment": "Refund was processed but took too many follow-ups from my side.",
+    "timestamp": "2023-03-10T17:55:57.000Z"
+  },
+  {
+    "feedback_id": "FBK3008",
+    "customer_id": "CUS1029",
+    "thread_id": "THR53439",
+    "rating": 4,
+    "comment": "Support was good, agent was polite and resolved the subscription issue.",
+    "timestamp": "2023-03-10T19:17:30.000Z"
+  },
+  {
+    "feedback_id": "FBK3106",
+    "customer_id": "CUS1030",
+    "thread_id": "THR58065",
+    "rating": 4,
+    "comment": "Mostly satisfied. Issue fixed but response time could be improved.",
+    "timestamp": "2023-03-18T03:12:51.000Z"
+  },
+  {
+    "feedback_id": "FBK3069",
+    "customer_id": "CUS1035",
+    "thread_id": "THR88480",
+    "rating": 3,
+    "comment": "Three-star experience. Issue fixed but the wait time was frustrating.",
+    "timestamp": "2023-03-19T15:09:14.000Z"
+  },
+  {
+    "feedback_id": "FBK3070",
+    "customer_id": "CUS1085",
+    "thread_id": "THR72989",
+    "rating": 5,
+    "comment": "Agent was extremely helpful and patient. Problem fixed on first contact.",
+    "timestamp": "2023-03-30T17:07:16.000Z"
+  },
+  {
+    "feedback_id": "FBK3015",
+    "customer_id": "CUS1057",
+    "thread_id": "THR63720",
+    "rating": 3,
+    "comment": "Resolution was okay but I had to escalate before anyone took it seriously.",
+    "timestamp": "2023-04-12T02:52:13.000Z"
+  },
+  {
+    "feedback_id": "FBK3086",
+    "customer_id": "CUS1003",
+    "thread_id": "THR56353",
+    "rating": 4,
+    "comment": "Nice experience overall. Agent was courteous and the issue got fixed by end of day.",
+    "timestamp": "2023-04-14T11:42:41.000Z"
+  },
+  {
+    "feedback_id": "FBK3049",
+    "customer_id": "CUS1092",
+    "thread_id": "THR64710",
+    "rating": 3,
+    "comment": "Decent experience but I expected better from a premium plan subscriber.",
+    "timestamp": "2023-04-16T11:59:29.000Z"
+  },
+  {
+    "feedback_id": "FBK3014",
+    "customer_id": "CUS1022",
+    "thread_id": "THR64487",
+    "rating": 3,
+    "comment": "Average service. Agent resolved the issue but lacked confidence in answers.",
+    "timestamp": "2023-05-06T20:53:06.000Z"
+  },
+  {
+    "feedback_id": "FBK3030",
+    "customer_id": "CUS1083",
+    "thread_id": "THR82119",
+    "rating": 3,
+    "comment": "The agent was polite but not very knowledgeable about my technical issue.",
+    "timestamp": "2023-05-23T21:37:35.000Z"
+  },
+  {
+    "feedback_id": "FBK3009",
+    "customer_id": "CUS1065",
+    "thread_id": "THR92224",
+    "rating": 5,
+    "comment": "Best customer support experience I have had in a long time. Highly recommend.",
+    "timestamp": "2023-06-01T12:43:27.000Z"
+  },
+  {
+    "feedback_id": "FBK3035",
+    "customer_id": "CUS1086",
+    "thread_id": "THR77030",
+    "rating": 2,
+    "comment": "The issue was resolved but only after I threatened to raise a consumer complaint.",
+    "timestamp": "2023-06-02T13:10:44.000Z"
+  },
+  {
+    "feedback_id": "FBK3062",
+    "customer_id": "CUS1014",
+    "thread_id": "THR80977",
+    "rating": 3,
+    "comment": "Shipping issue was addressed but took 3 days to get a proper update.",
+    "timestamp": "2023-06-15T20:32:40.000Z"
+  },
+  {
+    "feedback_id": "FBK3006",
+    "customer_id": "CUS1006",
+    "thread_id": "THR91452",
+    "rating": 3,
+    "comment": "Issue was eventually resolved but it took longer than expected.",
+    "timestamp": "2023-06-29T02:54:42.000Z"
+  },
+  {
+    "feedback_id": "FBK3080",
+    "customer_id": "CUS1096",
+    "thread_id": "THR75818",
+    "rating": 4,
+    "comment": "Tracking issue resolved with courier. Support team was responsive and helpful.",
+    "timestamp": "2023-07-13T08:45:45.000Z"
+  },
+  {
+    "feedback_id": "FBK3090",
+    "customer_id": "CUS1061",
+    "thread_id": "THR91986",
+    "rating": 4,
+    "comment": "Good support overall. Issue resolved but took a couple of follow-ups.",
+    "timestamp": "2023-07-17T05:49:16.000Z"
+  },
+  {
+    "feedback_id": "FBK3091",
+    "customer_id": "CUS1052",
+    "thread_id": "THR57626",
+    "rating": 4,
+    "comment": "Billing issue fixed. Communication was good, just needed one extra follow-up.",
+    "timestamp": "2023-07-18T13:39:40.000Z"
+  },
+  {
+    "feedback_id": "FBK3107",
+    "customer_id": "CUS1079",
+    "thread_id": "THR91814",
+    "rating": 2,
+    "comment": "Support felt robotic and unhelpful. Had to push hard for a real human response.",
+    "timestamp": "2023-07-19T10:10:02.000Z"
+  },
+  {
+    "feedback_id": "FBK3065",
+    "customer_id": "CUS1045",
+    "thread_id": "THR81325",
+    "rating": 1,
+    "comment": "One star is too generous. No response, no resolution, no accountability.",
+    "timestamp": "2023-07-25T09:22:11.000Z"
+  },
+  {
+    "feedback_id": "FBK3029",
+    "customer_id": "CUS1068",
+    "thread_id": "THR69100",
+    "rating": 4,
+    "comment": "Satisfied with the service. The technical issue was fixed with minimal downtime.",
+    "timestamp": "2023-07-27T22:21:09.000Z"
+  },
+  {
+    "feedback_id": "FBK3089",
+    "customer_id": "CUS1081",
+    "thread_id": "THR75223",
+    "rating": 4,
+    "comment": "Agent handled my query well. Minor delay in first response but resolved nicely.",
+    "timestamp": "2023-07-30T09:48:17.000Z"
+  },
+  {
+    "feedback_id": "FBK3039",
+    "customer_id": "CUS1055",
+    "thread_id": "THR51710",
+    "rating": 4,
+    "comment": "Billing issue fixed. Communication was good, just needed one extra follow-up.",
+    "timestamp": "2023-08-01T02:41:56.000Z"
+  },
+  {
+    "feedback_id": "FBK3022",
+    "customer_id": "CUS1034",
+    "thread_id": "THR85957",
+    "rating": 4,
+    "comment": "Good support overall. Issue resolved but took a couple of follow-ups.",
+    "timestamp": "2023-08-07T09:55:52.000Z"
+  },
+  {
+    "feedback_id": "FBK3111",
+    "customer_id": "CUS1052",
+    "thread_id": "THR72688",
+    "rating": 3,
+    "comment": "Support was average. Had to explain the same problem to two different agents.",
+    "timestamp": "2023-08-10T10:58:23.000Z"
+  },
+  {
+    "feedback_id": "FBK3085",
+    "customer_id": "CUS1038",
+    "thread_id": "THR70805",
+    "rating": 2,
+    "comment": "Two stars because the resolution came too late and caused significant inconvenience.",
+    "timestamp": "2023-08-13T22:35:16.000Z"
+  },
+  {
+    "feedback_id": "FBK3094",
+    "customer_id": "CUS1022",
+    "thread_id": "THR93771",
+    "rating": 5,
+    "comment": "My refund was processed immediately after I raised the ticket. Thank you!",
+    "timestamp": "2023-08-19T14:29:24.000Z"
+  },
+  {
+    "feedback_id": "FBK3081",
+    "customer_id": "CUS1001",
+    "thread_id": "THR96768",
+    "rating": 3,
+    "comment": "My query was answered but the bot responses were not very helpful initially.",
+    "timestamp": "2023-08-20T01:09:14.000Z"
+  },
+  {
+    "feedback_id": "FBK3068",
+    "customer_id": "CUS1073",
+    "thread_id": "THR90167",
+    "rating": 4,
+    "comment": "Tracking issue resolved with courier. Support team was responsive and helpful.",
+    "timestamp": "2023-08-22T14:09:07.000Z"
+  },
+  {
+    "feedback_id": "FBK3001",
+    "customer_id": "CUS1012",
+    "thread_id": "THR62861",
+    "rating": 2,
+    "comment": "Agent was polite but the resolution process was too slow and poorly communicated.",
+    "timestamp": "2023-08-24T02:30:52.000Z"
+  },
+  {
+    "feedback_id": "FBK3010",
+    "customer_id": "CUS1030",
+    "thread_id": "THR63451",
+    "rating": 4,
+    "comment": "Refund was processed eventually. Would appreciate quicker turnaround next time.",
+    "timestamp": "2023-08-26T09:59:04.000Z"
+  },
+  {
+    "feedback_id": "FBK3117",
+    "customer_id": "CUS1043",
+    "thread_id": "THR68147",
+    "rating": 3,
+    "comment": "Three-star experience. Issue fixed but the wait time was frustrating.",
+    "timestamp": "2023-08-28T00:19:14.000Z"
+  },
+  {
+    "feedback_id": "FBK3019",
+    "customer_id": "CUS1090",
+    "thread_id": "THR95799",
+    "rating": 3,
+    "comment": "Issue resolved after three interactions. Should have been fixed on first contact.",
+    "timestamp": "2023-09-01T23:34:26.000Z"
+  },
+  {
+    "feedback_id": "FBK3004",
+    "customer_id": "CUS1050",
+    "thread_id": "THR75421",
+    "rating": 4,
+    "comment": "Happy with the resolution. Just wish the process was a bit more streamlined.",
+    "timestamp": "2023-09-05T04:20:52.000Z"
+  },
+  {
+    "feedback_id": "FBK3112",
+    "customer_id": "CUS1076",
+    "thread_id": "THR61675",
+    "rating": 3,
+    "comment": "The agent was polite but not very knowledgeable about my technical issue.",
+    "timestamp": "2023-09-11T23:50:31.000Z"
+  },
+  {
+    "feedback_id": "FBK3071",
+    "customer_id": "CUS1093",
+    "thread_id": "THR90354",
+    "rating": 2,
+    "comment": "Not happy with the experience. Agent gave incorrect information initially.",
+    "timestamp": "2023-09-11T23:55:00.000Z"
+  },
+  {
+    "feedback_id": "FBK3113",
+    "customer_id": "CUS1073",
+    "thread_id": "THR70827",
+    "rating": 3,
+    "comment": "My query was answered but the bot responses were not very helpful initially.",
+    "timestamp": "2023-09-13T12:27:40.000Z"
+  },
+  {
+    "feedback_id": "FBK3084",
+    "customer_id": "CUS1099",
+    "thread_id": "THR59372",
+    "rating": 3,
+    "comment": "Resolution was okay but I had to escalate before anyone took it seriously.",
+    "timestamp": "2023-09-25T15:04:01.000Z"
+  },
+  {
+    "feedback_id": "FBK3079",
+    "customer_id": "CUS1043",
+    "thread_id": "THR83208",
+    "rating": 2,
+    "comment": "Needed faster response. By the time support replied, I had already found a workaround.",
+    "timestamp": "2023-10-05T03:29:32.000Z"
+  },
+  {
+    "feedback_id": "FBK3118",
+    "customer_id": "CUS1021",
+    "thread_id": "THR95289",
+    "rating": 4,
+    "comment": "Great support from the agent assigned to my ticket. Small delay aside, well done.",
+    "timestamp": "2023-10-15T23:00:15.000Z"
+  },
+  {
+    "feedback_id": "FBK3101",
+    "customer_id": "CUS1055",
+    "thread_id": "THR76098",
+    "rating": 5,
+    "comment": "Agent explained everything clearly and resolved my account issue in minutes.",
+    "timestamp": "2023-10-20T06:04:17.000Z"
+  },
+  {
+    "feedback_id": "FBK3116",
+    "customer_id": "CUS1024",
+    "thread_id": "THR91875",
+    "rating": 4,
+    "comment": "Good interaction. My duplicate payment was refunded. Took 2 days but acceptable.",
+    "timestamp": "2023-10-25T04:32:51.000Z"
+  },
+  {
+    "feedback_id": "FBK3020",
+    "customer_id": "CUS1035",
+    "thread_id": "THR58224",
+    "rating": 2,
+    "comment": "Very slow response from support. Expected much better given my Enterprise plan.",
+    "timestamp": "2023-11-18T16:20:48.000Z"
+  },
+  {
+    "feedback_id": "FBK3088",
+    "customer_id": "CUS1046",
+    "thread_id": "THR79188",
+    "rating": 3,
+    "comment": "Needed faster response. Waited almost 24 hours for first reply.",
+    "timestamp": "2023-11-23T01:19:28.000Z"
+  },
+  {
+    "feedback_id": "FBK3045",
+    "customer_id": "CUS1083",
+    "thread_id": "THR91734",
+    "rating": 4,
+    "comment": "Support was good, agent was polite and resolved the subscription issue.",
+    "timestamp": "2023-11-24T14:53:43.000Z"
+  },
+  {
+    "feedback_id": "FBK3047",
+    "customer_id": "CUS1058",
+    "thread_id": "THR55331",
+    "rating": 1,
+    "comment": "Support team is useless. Same scripted responses every time, zero resolution.",
+    "timestamp": "2023-11-29T22:53:09.000Z"
+  },
+  {
+    "feedback_id": "FBK3103",
+    "customer_id": "CUS1088",
+    "thread_id": "THR84283",
+    "rating": 3,
+    "comment": "Support got the job done but the communication was inconsistent.",
+    "timestamp": "2023-12-07T16:43:20.000Z"
+  },
+  {
+    "feedback_id": "FBK3031",
+    "customer_id": "CUS1070",
+    "thread_id": "THR63678",
+    "rating": 5,
+    "comment": "Subscription was activated instantly after the agent intervened. Great work!",
+    "timestamp": "2023-12-12T23:40:56.000Z"
+  },
+  {
+    "feedback_id": "FBK3007",
+    "customer_id": "CUS1066",
+    "thread_id": "THR96252",
+    "rating": 1,
+    "comment": "Zero empathy from the support team. They just close tickets without fixing anything.",
+    "timestamp": "2023-12-27T19:17:18.000Z"
+  },
+  {
+    "feedback_id": "FBK3028",
+    "customer_id": "CUS1086",
+    "thread_id": "THR63110",
+    "rating": 4,
+    "comment": "Resolved my login issue efficiently. Would be perfect with faster initial response.",
+    "timestamp": "2023-12-31T03:10:11.000Z"
+  },
+  {
+    "feedback_id": "FBK3023",
+    "customer_id": "CUS1029",
+    "thread_id": "THR75708",
+    "rating": 4,
+    "comment": "Nice experience overall. Agent was courteous and the issue got fixed by end of day.",
+    "timestamp": "2024-01-02T22:03:07.000Z"
+  },
+  {
+    "feedback_id": "FBK3021",
+    "customer_id": "CUS1058",
+    "thread_id": "THR82556",
+    "rating": 4,
+    "comment": "Helpful agent, resolved my payment issue. Could be slightly faster though.",
+    "timestamp": "2024-01-10T00:22:39.000Z"
+  },
+  {
+    "feedback_id": "FBK3098",
+    "customer_id": "CUS1028",
+    "thread_id": "THR76899",
+    "rating": 2,
+    "comment": "Billing discrepancy took 10 days to fix. Unacceptable for a paying customer.",
+    "timestamp": "2024-01-14T00:06:10.000Z"
+  },
+  {
+    "feedback_id": "FBK3033",
+    "customer_id": "CUS1007",
+    "thread_id": "THR86592",
+    "rating": 2,
+    "comment": "Disappointed with the level of service. My subscription issue is still partially broken.",
+    "timestamp": "2024-01-28T01:29:44.000Z"
+  },
+  {
+    "feedback_id": "FBK3046",
+    "customer_id": "CUS1070",
+    "thread_id": "THR98161",
+    "rating": 3,
+    "comment": "Problem solved but the process was unnecessarily complicated.",
+    "timestamp": "2024-01-28T12:27:14.000Z"
+  },
+  {
+    "feedback_id": "FBK3078",
+    "customer_id": "CUS1026",
+    "thread_id": "THR74038",
+    "rating": 4,
+    "comment": "Resolved my login issue efficiently. Would be perfect with faster initial response.",
+    "timestamp": "2024-02-03T15:28:26.000Z"
+  },
+  {
+    "feedback_id": "FBK3108",
+    "customer_id": "CUS1089",
+    "thread_id": "THR64312",
+    "rating": 5,
+    "comment": "Five stars without hesitation. Professional, fast, and effective support.",
+    "timestamp": "2024-02-07T14:30:59.000Z"
+  },
+  {
+    "feedback_id": "FBK3092",
+    "customer_id": "CUS1013",
+    "thread_id": "THR95114",
+    "rating": 5,
+    "comment": "Best customer support experience I have had in a long time. Highly recommend.",
+    "timestamp": "2024-02-14T20:44:10.000Z"
+  },
+  {
+    "feedback_id": "FBK3050",
+    "customer_id": "CUS1074",
+    "thread_id": "THR99217",
+    "rating": 5,
+    "comment": "Five stars without hesitation. Professional, fast, and effective support.",
+    "timestamp": "2024-02-23T22:20:39.000Z"
+  },
+  {
+    "feedback_id": "FBK3003",
+    "customer_id": "CUS1046",
+    "thread_id": "THR97307",
+    "rating": 5,
+    "comment": "Superb service! Agent kept me updated at every step. No complaints at all.",
+    "timestamp": "2024-02-24T21:09:50.000Z"
+  },
+  {
+    "feedback_id": "FBK3051",
+    "customer_id": "CUS1067",
+    "thread_id": "THR94104",
+    "rating": 4,
+    "comment": "Resolved my login issue efficiently. Would be perfect with faster initial response.",
+    "timestamp": "2024-02-26T06:52:16.000Z"
+  },
+  {
+    "feedback_id": "FBK3120",
+    "customer_id": "CUS1005",
+    "thread_id": "THR61604",
+    "rating": 3,
+    "comment": "Problem solved but the process was unnecessarily complicated.",
+    "timestamp": "2024-02-26T16:05:57.000Z"
+  },
+  {
+    "feedback_id": "FBK3040",
+    "customer_id": "CUS1012",
+    "thread_id": "THR77933",
+    "rating": 4,
+    "comment": "Happy with the resolution. Just wish the process was a bit more streamlined.",
+    "timestamp": "2024-03-02T12:31:22.000Z"
+  },
+  {
+    "feedback_id": "FBK3114",
+    "customer_id": "CUS1093",
+    "thread_id": "THR61185",
+    "rating": 3,
+    "comment": "Average service. Agent resolved the issue but lacked confidence in answers.",
+    "timestamp": "2024-03-03T00:44:25.000Z"
+  },
+  {
+    "feedback_id": "FBK3077",
+    "customer_id": "CUS1043",
+    "thread_id": "THR63471",
+    "rating": 3,
+    "comment": "Needed faster response. Waited almost 24 hours for first reply.",
+    "timestamp": "2024-03-03T21:16:16.000Z"
+  },
+  {
+    "feedback_id": "FBK3052",
+    "customer_id": "CUS1089",
+    "thread_id": "THR54098",
+    "rating": 4,
+    "comment": "Great support from the agent assigned to my ticket. Small delay aside, well done.",
+    "timestamp": "2024-03-04T01:23:15.000Z"
+  },
+  {
+    "feedback_id": "FBK3026",
+    "customer_id": "CUS1054",
+    "thread_id": "THR71165",
+    "rating": 5,
+    "comment": "Fraud complaint handled with utmost urgency. Really appreciate the quick action.",
+    "timestamp": "2024-03-12T08:39:07.000Z"
+  },
+  {
+    "feedback_id": "FBK3037",
+    "customer_id": "CUS1081",
+    "thread_id": "THR64500",
+    "rating": 4,
+    "comment": "Good interaction. My duplicate payment was refunded. Took 2 days but acceptable.",
+    "timestamp": "2024-03-15T16:52:27.000Z"
+  },
+  {
+    "feedback_id": "FBK3061",
+    "customer_id": "CUS1009",
+    "thread_id": "THR86986",
+    "rating": 5,
+    "comment": "Loved the experience. Support was prompt and the resolution was spot on.",
+    "timestamp": "2024-03-20T20:41:11.000Z"
+  },
+  {
+    "feedback_id": "FBK3016",
+    "customer_id": "CUS1090",
+    "thread_id": "THR97083",
+    "rating": 4,
+    "comment": "Good interaction. My duplicate payment was refunded. Took 2 days but acceptable.",
+    "timestamp": "2024-03-31T01:11:48.000Z"
+  },
+  {
+    "feedback_id": "FBK3099",
+    "customer_id": "CUS1075",
+    "thread_id": "THR96805",
+    "rating": 3,
+    "comment": "Issue resolved after three interactions. Should have been fixed on first contact.",
+    "timestamp": "2024-04-04T16:38:05.000Z"
+  },
+  {
+    "feedback_id": "FBK3109",
+    "customer_id": "CUS1089",
+    "thread_id": "THR85291",
+    "rating": 2,
+    "comment": "Billing discrepancy took 10 days to fix. Unacceptable for a paying customer.",
+    "timestamp": "2024-04-14T04:54:36.000Z"
+  },
+  {
+    "feedback_id": "FBK3012",
+    "customer_id": "CUS1053",
+    "thread_id": "THR70350",
+    "rating": 4,
+    "comment": "Great support from the agent assigned to my ticket. Small delay aside, well done.",
+    "timestamp": "2024-04-25T20:21:04.000Z"
+  },
+  {
+    "feedback_id": "FBK3105",
+    "customer_id": "CUS1062",
+    "thread_id": "THR88838",
+    "rating": 4,
+    "comment": "Refund was processed eventually. Would appreciate quicker turnaround next time.",
+    "timestamp": "2024-04-27T16:00:27.000Z"
+  },
+  {
+    "feedback_id": "FBK3072",
+    "customer_id": "CUS1001",
+    "thread_id": "THR79391",
+    "rating": 4,
+    "comment": "Agent handled my query well. Minor delay in first response but resolved nicely.",
+    "timestamp": "2024-05-04T07:20:51.000Z"
+  },
+  {
+    "feedback_id": "FBK3005",
+    "customer_id": "CUS1093",
+    "thread_id": "THR78107",
+    "rating": 4,
+    "comment": "Account restored quickly after suspension. Clear communication throughout.",
+    "timestamp": "2024-05-05T01:44:06.000Z"
+  },
+  {
+    "feedback_id": "FBK3083",
+    "customer_id": "CUS1080",
+    "thread_id": "THR96543",
+    "rating": 4,
+    "comment": "Account restored quickly after suspension. Clear communication throughout.",
+    "timestamp": "2024-05-09T11:46:35.000Z"
+  },
+  {
+    "feedback_id": "FBK3115",
+    "customer_id": "CUS1002",
+    "thread_id": "THR63145",
+    "rating": 5,
+    "comment": "The agent was polite, knowledgeable, and sorted my billing issue right away.",
+    "timestamp": "2024-05-10T11:13:04.000Z"
+  },
+  {
+    "feedback_id": "FBK3034",
+    "customer_id": "CUS1033",
+    "thread_id": "THR61919",
+    "rating": 4,
+    "comment": "Billing issue fixed. Communication was good, just needed one extra follow-up.",
+    "timestamp": "2024-05-14T01:03:12.000Z"
+  },
+  {
+    "feedback_id": "FBK3043",
+    "customer_id": "CUS1012",
+    "thread_id": "THR99455",
+    "rating": 4,
+    "comment": "Good support overall. Issue resolved but took a couple of follow-ups.",
+    "timestamp": "2024-05-23T17:24:17.000Z"
+  },
+  {
+    "feedback_id": "FBK3104",
+    "customer_id": "CUS1006",
+    "thread_id": "THR79926",
+    "rating": 3,
+    "comment": "Shipping issue was addressed but took 3 days to get a proper update.",
+    "timestamp": "2024-05-30T06:53:03.000Z"
+  },
+  {
+    "feedback_id": "FBK3074",
+    "customer_id": "CUS1100",
+    "thread_id": "THR55984",
+    "rating": 4,
+    "comment": "Support was good, agent was polite and resolved the subscription issue.",
+    "timestamp": "2024-05-31T14:01:59.000Z"
+  },
+  {
+    "feedback_id": "FBK3057",
+    "customer_id": "CUS1058",
+    "thread_id": "THR66661",
+    "rating": 1,
+    "comment": "Completely unacceptable. Fraud complaint ignored for days. Will be taking legal action.",
+    "timestamp": "2024-06-09T11:49:42.000Z"
+  },
+  {
+    "feedback_id": "FBK3053",
+    "customer_id": "CUS1003",
+    "thread_id": "THR70863",
+    "rating": 2,
+    "comment": "My payment issue is technically resolved but the process was extremely painful.",
+    "timestamp": "2024-06-12T16:51:31.000Z"
+  },
+  {
+    "feedback_id": "FBK3054",
+    "customer_id": "CUS1077",
+    "thread_id": "THR52640",
+    "rating": 5,
+    "comment": "My order delay was escalated and resolved same day. Very happy with the outcome.",
+    "timestamp": "2024-06-26T19:32:28.000Z"
+  },
+  {
+    "feedback_id": "FBK3032",
+    "customer_id": "CUS1075",
+    "thread_id": "THR92409",
+    "rating": 4,
+    "comment": "Agent handled my query well. Minor delay in first response but resolved nicely.",
+    "timestamp": "2024-06-29T19:45:20.000Z"
+  },
+  {
+    "feedback_id": "FBK3036",
+    "customer_id": "CUS1037",
+    "thread_id": "THR63478",
+    "rating": 4,
+    "comment": "Tracking issue resolved with courier. Support team was responsive and helpful.",
+    "timestamp": "2024-07-06T07:32:27.000Z"
+  },
+  {
+    "feedback_id": "FBK3027",
+    "customer_id": "CUS1082",
+    "thread_id": "THR50254",
+    "rating": 1,
+    "comment": "This is daylight robbery. Double charged and no refund after 3 weeks.",
+    "timestamp": "2024-07-07T11:24:21.000Z"
+  },
+  {
+    "feedback_id": "FBK3066",
+    "customer_id": "CUS1093",
+    "thread_id": "THR80934",
+    "rating": 5,
+    "comment": "Technical issue with API was fixed within 2 hours. Fantastic response time.",
+    "timestamp": "2024-07-15T18:49:56.000Z"
+  },
+  {
+    "feedback_id": "FBK3064",
+    "customer_id": "CUS1024",
+    "thread_id": "THR59237",
+    "rating": 4,
+    "comment": "Nice experience overall. Agent was courteous and the issue got fixed by end of day.",
+    "timestamp": "2024-07-24T01:15:30.000Z"
+  },
+  {
+    "feedback_id": "FBK3087",
+    "customer_id": "CUS1050",
+    "thread_id": "THR70199",
+    "rating": 5,
+    "comment": "Quick response and clean resolution. Kudos to the support team.",
+    "timestamp": "2024-08-08T23:14:58.000Z"
+  },
+  {
+    "feedback_id": "FBK3095",
+    "customer_id": "CUS1096",
+    "thread_id": "THR72468",
+    "rating": 3,
+    "comment": "Refund was processed but took too many follow-ups from my side.",
+    "timestamp": "2024-08-13T10:16:24.000Z"
+  },
+  {
+    "feedback_id": "FBK3110",
+    "customer_id": "CUS1096",
+    "thread_id": "THR84055",
+    "rating": 3,
+    "comment": "Decent experience but I expected better from a premium plan subscriber.",
+    "timestamp": "2024-08-16T07:13:39.000Z"
+  },
+  {
+    "feedback_id": "FBK3056",
+    "customer_id": "CUS1084",
+    "thread_id": "THR56066",
+    "rating": 4,
+    "comment": "Account restored quickly after suspension. Clear communication throughout.",
+    "timestamp": "2024-08-28T09:31:18.000Z"
+  },
+  {
+    "feedback_id": "FBK3038",
+    "customer_id": "CUS1061",
+    "thread_id": "THR90192",
+    "rating": 5,
+    "comment": "Very satisfied. The support team went above and beyond to help me.",
+    "timestamp": "2024-08-31T22:12:36.000Z"
+  },
+  {
+    "feedback_id": "FBK3082",
+    "customer_id": "CUS1001",
+    "thread_id": "THR76232",
+    "rating": 3,
+    "comment": "Support got the job done but the communication was inconsistent.",
+    "timestamp": "2024-09-02T15:26:07.000Z"
+  },
+  {
+    "feedback_id": "FBK3093",
+    "customer_id": "CUS1028",
+    "thread_id": "THR97346",
+    "rating": 4,
+    "comment": "Satisfied with the service. The technical issue was fixed with minimal downtime.",
+    "timestamp": "2024-09-10T06:24:11.000Z"
+  },
+  {
+    "feedback_id": "FBK3059",
+    "customer_id": "CUS1063",
+    "thread_id": "THR75980",
+    "rating": 1,
+    "comment": "My issue was escalated three times and still not resolved. Shocking.",
+    "timestamp": "2024-09-14T21:31:22.000Z"
+  },
+  {
+    "feedback_id": "FBK3100",
+    "customer_id": "CUS1054",
+    "thread_id": "THR99195",
+    "rating": 4,
+    "comment": "Happy with the resolution. Just wish the process was a bit more streamlined.",
+    "timestamp": "2024-09-16T15:59:26.000Z"
+  },
+  {
+    "feedback_id": "FBK3058",
+    "customer_id": "CUS1049",
+    "thread_id": "THR54107",
+    "rating": 4,
+    "comment": "Mostly satisfied. Issue fixed but response time could be improved.",
+    "timestamp": "2024-09-17T17:44:04.000Z"
+  },
+  {
+    "feedback_id": "FBK3018",
+    "customer_id": "CUS1085",
+    "thread_id": "THR55168",
+    "rating": 3,
+    "comment": "Support was average. Had to explain the same problem to two different agents.",
+    "timestamp": "2024-09-25T20:06:11.000Z"
+  },
+  {
+    "feedback_id": "FBK3017",
+    "customer_id": "CUS1078",
+    "thread_id": "THR98571",
+    "rating": 2,
+    "comment": "Poor response time. Had to follow up four times before anyone took action.",
+    "timestamp": "2024-09-27T03:27:50.000Z"
+  },
+  {
+    "feedback_id": "FBK3119",
+    "customer_id": "CUS1043",
+    "thread_id": "THR89862",
+    "rating": 4,
+    "comment": "Billing issue fixed. Communication was good, just needed one extra follow-up.",
+    "timestamp": "2024-09-29T21:16:37.000Z"
+  },
+  {
+    "feedback_id": "FBK3073",
+    "customer_id": "CUS1053",
+    "thread_id": "THR57046",
+    "rating": 5,
+    "comment": "Outstanding service. Payment issue resolved without any hassle.",
+    "timestamp": "2024-10-06T14:08:36.000Z"
+  },
+  {
+    "feedback_id": "FBK3025",
+    "customer_id": "CUS1031",
+    "thread_id": "THR91739",
+    "rating": 5,
+    "comment": "Agent explained everything clearly and resolved my account issue in minutes.",
+    "timestamp": "2024-10-09T07:16:01.000Z"
+  },
+  {
+    "feedback_id": "FBK3041",
+    "customer_id": "CUS1051",
+    "thread_id": "THR71324",
+    "rating": 2,
+    "comment": "Disappointed. Issue took over a week to resolve and required multiple escalations.",
+    "timestamp": "2024-10-12T21:16:10.000Z"
+  },
+  {
+    "feedback_id": "FBK3013",
+    "customer_id": "CUS1026",
+    "thread_id": "THR65759",
+    "rating": 4,
+    "comment": "Mostly satisfied. Issue fixed but response time could be improved.",
+    "timestamp": "2024-10-16T05:08:48.000Z"
+  },
+  {
+    "feedback_id": "FBK3063",
+    "customer_id": "CUS1099",
+    "thread_id": "THR90914",
+    "rating": 4,
+    "comment": "Helpful agent, resolved my payment issue. Could be slightly faster though.",
+    "timestamp": "2024-10-27T20:35:41.000Z"
+  },
+  {
+    "feedback_id": "FBK3055",
+    "customer_id": "CUS1039",
+    "thread_id": "THR54714",
+    "rating": 3,
+    "comment": "Okay experience. Not great, not bad. Room for improvement in response speed.",
+    "timestamp": "2024-11-03T16:00:18.000Z"
+  },
+  {
+    "feedback_id": "FBK3096",
+    "customer_id": "CUS1040",
+    "thread_id": "THR73021",
+    "rating": 4,
+    "comment": "Helpful agent, resolved my payment issue. Could be slightly faster though.",
+    "timestamp": "2024-11-14T20:32:42.000Z"
+  },
+  {
+    "feedback_id": "FBK3097",
+    "customer_id": "CUS1071",
+    "thread_id": "THR54892",
+    "rating": 5,
+    "comment": "Superb service! Agent kept me updated at every step. No complaints at all.",
+    "timestamp": "2024-12-12T16:33:05.000Z"
+  },
+  {
+    "feedback_id": "FBK3048",
+    "customer_id": "CUS1088",
+    "thread_id": "THR50911",
+    "rating": 4,
+    "comment": "Satisfied with the service. The technical issue was fixed with minimal downtime.",
+    "timestamp": "2024-12-12T19:39:33.000Z"
+  },
+  {
+    "feedback_id": "FBK3011",
+    "customer_id": "CUS1043",
+    "thread_id": "THR50544",
+    "rating": 2,
+    "comment": "Below average support. Escalation helped eventually but initial handling was poor.",
+    "timestamp": "2024-12-26T07:01:36.000Z"
+  }
+]

@@ -11,7 +11,7 @@ from langchain_chroma import Chroma
 load_dotenv()
 
 
-# Optional HF auth
+
 os.environ["HF_TOKEN"] = os.getenv(
     "HUGGINGFACEHUB_API_TOKEN",
     ""

@@ -1,0 +1,2962 @@
+[
+  {
+    "ticket_id": "TKT1001",
+    "customer_id": "CUS1033",
+    "thread_id": "THR71358",
+    "issue": "Duplicate payment charged for single order",
+    "priority": "HIGH",
+    "status": "Resolved",
+    "assigned_to": "Agent-A",
+    "created_at": "2023-08-16T01:19:58.000Z",
+    "resolution": "Payment failure confirmed due to gateway timeout. Amount of has been reversed to source account. Transaction reconciled and customer notified. Expected credit in 3-5 business days.",
+    "updates": [
+      {
+        "time": "2023-08-16T07:02:58.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-08-16T09:33:58.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      },
+      {
+        "time": "2023-08-16T11:17:58.000Z",
+        "status": "Agent Agent-A is actively investigating the issue."
+      },
+      {
+        "time": "2023-08-16T16:31:58.000Z",
+        "status": "Agent Agent-A is working on the resolution."
+      },
+      {
+        "time": "2023-08-16T22:23:58.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1002",
+    "customer_id": "CUS1036",
+    "thread_id": "THR51858",
+    "issue": "Enterprise features not accessible after plan upgrade",
+    "priority": "HIGH",
+    "status": "Resolved",
+    "assigned_to": "Agent-B",
+    "created_at": "2024-09-07T12:07:31.000Z",
+    "resolution": "Subscription activation delay resolved. Payment confirmed but activation job had failed silently. Manually triggered. Customer account now shows active subscription with correct expiry.",
+    "updates": [
+      {
+        "time": "2024-09-07T19:44:31.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-09-07T23:32:31.000Z",
+        "status": "Ticket assigned to Agent-B for investigation."
+      },
+      {
+        "time": "2024-09-08T01:35:31.000Z",
+        "status": "Agent Agent-B is actively investigating the issue."
+      },
+      {
+        "time": "2024-09-08T04:54:31.000Z",
+        "status": "Agent Agent-B is working on the resolution."
+      },
+      {
+        "time": "2024-09-08T08:08:31.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1003",
+    "customer_id": "CUS1012",
+    "thread_id": "THR86109",
+    "issue": "Subscription paused but customer still being charged",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "assigned_to": "Agent-D",
+    "created_at": "2023-06-09T05:02:05.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2023-06-09T12:44:05.000Z",
+        "status": "Ticket received and logged in the system."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1004",
+    "customer_id": "CUS1026",
+    "thread_id": "THR95693",
+    "issue": "Account suspended incorrectly without violation",
+    "priority": "HIGH",
+    "status": "Closed",
+    "assigned_to": "Agent-A",
+    "created_at": "2023-03-19T13:14:14.000Z",
+    "resolution": "Account access restored after identity verification. Root cause was conflicting session token. Fixed in system. Customer successfully logged in. Security review completed.",
+    "updates": [
+      {
+        "time": "2023-03-19T20:02:14.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-03-19T22:20:14.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      },
+      {
+        "time": "2023-03-20T05:10:14.000Z",
+        "status": "Agent Agent-A is actively investigating the issue."
+      },
+      {
+        "time": "2023-03-20T08:28:14.000Z",
+        "status": "Agent Agent-A is working on the resolution."
+      },
+      {
+        "time": "2023-03-20T16:13:14.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2023-03-20T17:27:14.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1005",
+    "customer_id": "CUS1074",
+    "thread_id": "THR80227",
+    "issue": "Subscription paused but customer still being charged",
+    "priority": "MEDIUM",
+    "status": "Closed",
+    "assigned_to": "Agent-A",
+    "created_at": "2023-07-31T05:01:34.000Z",
+    "resolution": "Subscription cancellation option restored after frontend bug fix. Customer successfully cancelled. Final invoice generated. Access retained till end of paid period.",
+    "updates": [
+      {
+        "time": "2023-07-31T10:13:34.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-07-31T11:45:34.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      },
+      {
+        "time": "2023-07-31T15:14:34.000Z",
+        "status": "Agent Agent-A is actively investigating the issue."
+      },
+      {
+        "time": "2023-07-31T20:15:34.000Z",
+        "status": "Agent Agent-A is working on the resolution."
+      },
+      {
+        "time": "2023-07-31T21:13:34.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2023-08-01T04:47:34.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1006",
+    "customer_id": "CUS1097",
+    "thread_id": "THR88175",
+    "issue": "Customer requesting consolidated invoice for multiple orders",
+    "priority": "MEDIUM",
+    "status": "Resolved",
+    "assigned_to": "Agent-B",
+    "created_at": "2023-06-20T05:25:24.000Z",
+    "resolution": "Invoice discrepancy identified as incorrect GST calculation. Revised invoice generated and sent. Difference of credited to customer account. Billing team notified.",
+    "updates": [
+      {
+        "time": "2023-06-20T07:05:24.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-06-20T14:08:24.000Z",
+        "status": "Ticket assigned to Agent-B for investigation."
+      },
+      {
+        "time": "2023-06-20T21:29:24.000Z",
+        "status": "Agent Agent-B is actively investigating the issue."
+      },
+      {
+        "time": "2023-06-21T01:15:24.000Z",
+        "status": "Agent Agent-B is working on the resolution."
+      },
+      {
+        "time": "2023-06-21T01:51:24.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1007",
+    "customer_id": "CUS1007",
+    "thread_id": "THR82493",
+    "issue": "Account merged incorrectly with another user profile",
+    "priority": "CRITICAL",
+    "status": "Assigned",
+    "assigned_to": "Agent-C",
+    "created_at": "2024-08-13T10:21:38.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-08-13T15:09:38.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-08-13T20:27:38.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1008",
+    "customer_id": "CUS1089",
+    "thread_id": "THR82038",
+    "issue": "Account compromised, multiple unauthorized orders placed",
+    "priority": "HIGH",
+    "status": "Open",
+    "assigned_to": "Agent-A",
+    "created_at": "2023-04-25T11:55:03.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2023-04-25T19:36:03.000Z",
+        "status": "Ticket received and logged in the system."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1009",
+    "customer_id": "CUS1063",
+    "thread_id": "THR73130",
+    "issue": "Pro-rated adjustment not reflected in invoice",
+    "priority": "HIGH",
+    "status": "Assigned",
+    "assigned_to": "Agent-A",
+    "created_at": "2023-02-18T07:27:33.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2023-02-18T15:01:33.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-02-18T21:58:33.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1010",
+    "customer_id": "CUS1004",
+    "thread_id": "THR95940",
+    "issue": "Unauthorized transaction detected on account",
+    "priority": "CRITICAL",
+    "status": "Closed",
+    "assigned_to": "Agent-D",
+    "created_at": "2023-03-30T02:57:57.000Z",
+    "resolution": "Fraudulent transactions identified and reversed. Account secured with forced password reset and 2FA enabled. Fraud team has blacklisted the suspicious IP. Customer notified via email.",
+    "updates": [
+      {
+        "time": "2023-03-30T04:19:57.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-03-30T12:06:57.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      },
+      {
+        "time": "2023-03-30T13:45:57.000Z",
+        "status": "Agent Agent-D is actively investigating the issue."
+      },
+      {
+        "time": "2023-03-30T16:17:57.000Z",
+        "status": "Agent Agent-D is working on the resolution."
+      },
+      {
+        "time": "2023-03-30T19:00:57.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2023-03-30T21:17:57.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1011",
+    "customer_id": "CUS1021",
+    "thread_id": "THR60764",
+    "issue": "Payment failed but amount deducted from bank account",
+    "priority": "HIGH",
+    "status": "Investigating",
+    "assigned_to": "Agent-B",
+    "created_at": "2024-06-04T17:30:20.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-06-05T00:04:20.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-06-05T06:48:20.000Z",
+        "status": "Ticket assigned to Agent-B for investigation."
+      },
+      {
+        "time": "2024-06-05T12:25:20.000Z",
+        "status": "Agent Agent-B is actively investigating the issue."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1012",
+    "customer_id": "CUS1054",
+    "thread_id": "THR82081",
+    "issue": "Shipment returned to origin without delivery attempt",
+    "priority": "MEDIUM",
+    "status": "Investigating",
+    "assigned_to": "Agent-A",
+    "created_at": "2024-01-02T04:37:24.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-01-02T08:59:24.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-01-02T16:56:24.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      },
+      {
+        "time": "2024-01-02T19:02:24.000Z",
+        "status": "Ticket escalated to senior support team."
+      },
+      {
+        "time": "2024-01-02T19:41:24.000Z",
+        "status": "Agent Agent-A is actively investigating the issue."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1013",
+    "customer_id": "CUS1076",
+    "thread_id": "THR81883",
+    "issue": "Unauthorized transaction detected on account",
+    "priority": "MEDIUM",
+    "status": "Closed",
+    "assigned_to": "Agent-B",
+    "created_at": "2023-01-07T20:27:07.000Z",
+    "resolution": "Investigation confirmed unauthorized access. All unrecognized charges totaling refunded to original payment method. Account credentials reset and security audit completed.",
+    "updates": [
+      {
+        "time": "2023-01-08T01:18:07.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-01-08T03:32:07.000Z",
+        "status": "Ticket assigned to Agent-B for investigation."
+      },
+      {
+        "time": "2023-01-08T09:49:07.000Z",
+        "status": "Agent Agent-B is actively investigating the issue."
+      },
+      {
+        "time": "2023-01-08T11:01:07.000Z",
+        "status": "Agent Agent-B is working on the resolution."
+      },
+      {
+        "time": "2023-01-08T18:09:07.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2023-01-08T22:16:07.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1014",
+    "customer_id": "CUS1014",
+    "thread_id": "THR93524",
+    "issue": "Customer requesting refund for unused subscription period",
+    "priority": "HIGH",
+    "status": "Closed",
+    "assigned_to": "Agent-D",
+    "created_at": "2024-02-18T15:03:42.000Z",
+    "resolution": "Refund failure due to expired card on file. Customer provided alternate account details. Refund re-initiated via NEFT. Credited successfully within 24 hours.",
+    "updates": [
+      {
+        "time": "2024-02-18T17:12:42.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-02-19T01:11:42.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      },
+      {
+        "time": "2024-02-19T08:45:42.000Z",
+        "status": "Agent Agent-D is actively investigating the issue."
+      },
+      {
+        "time": "2024-02-19T14:47:42.000Z",
+        "status": "Agent Agent-D is working on the resolution."
+      },
+      {
+        "time": "2024-02-19T18:56:42.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2024-02-20T02:38:42.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1015",
+    "customer_id": "CUS1037",
+    "thread_id": "THR55645",
+    "issue": "Auto-renewal triggered after manual cancellation",
+    "priority": "MEDIUM",
+    "status": "Investigating",
+    "assigned_to": "Agent-C",
+    "created_at": "2024-12-10T19:55:49.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-12-11T02:36:49.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-12-11T08:54:49.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      },
+      {
+        "time": "2024-12-11T13:28:49.000Z",
+        "status": "Agent Agent-C is actively investigating the issue."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1016",
+    "customer_id": "CUS1096",
+    "thread_id": "THR92957",
+    "issue": "Shipment returned to origin without delivery attempt",
+    "priority": "MEDIUM",
+    "status": "Closed",
+    "assigned_to": "Agent-D",
+    "created_at": "2024-11-05T14:27:50.000Z",
+    "resolution": "Delivery delay confirmed due to logistics partner backlog. Shipment expedited with priority flag. Package delivered successfully. Customer confirmed receipt and case closed.",
+    "updates": [
+      {
+        "time": "2024-11-05T22:25:50.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-11-06T03:42:50.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      },
+      {
+        "time": "2024-11-06T11:23:50.000Z",
+        "status": "Agent Agent-D is actively investigating the issue."
+      },
+      {
+        "time": "2024-11-06T17:54:50.000Z",
+        "status": "Agent Agent-D is working on the resolution."
+      },
+      {
+        "time": "2024-11-07T00:01:50.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2024-11-07T03:09:50.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1017",
+    "customer_id": "CUS1036",
+    "thread_id": "THR94245",
+    "issue": "Duplicate payment charged for single order",
+    "priority": "CRITICAL",
+    "status": "Open",
+    "assigned_to": "Agent-C",
+    "created_at": "2024-12-22T23:09:39.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-12-23T06:41:39.000Z",
+        "status": "Ticket received and logged in the system."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1018",
+    "customer_id": "CUS1076",
+    "thread_id": "THR90839",
+    "issue": "Account merged incorrectly with another user profile",
+    "priority": "LOW",
+    "status": "Resolved",
+    "assigned_to": "Agent-A",
+    "created_at": "2024-02-14T21:12:29.000Z",
+    "resolution": "Account suspension reversed after internal review. Suspension was triggered incorrectly by automated fraud filter. Filter updated. Customer account restored with full access.",
+    "updates": [
+      {
+        "time": "2024-02-15T02:42:29.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-02-15T04:13:29.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      },
+      {
+        "time": "2024-02-15T10:10:29.000Z",
+        "status": "Agent Agent-A is actively investigating the issue."
+      },
+      {
+        "time": "2024-02-15T16:34:29.000Z",
+        "status": "Agent Agent-A is working on the resolution."
+      },
+      {
+        "time": "2024-02-16T00:05:29.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1019",
+    "customer_id": "CUS1035",
+    "thread_id": "THR60547",
+    "issue": "Two-factor authentication code not being received",
+    "priority": "MEDIUM",
+    "status": "Resolved",
+    "assigned_to": "Agent-A",
+    "created_at": "2024-06-10T13:44:06.000Z",
+    "resolution": "Account access restored after identity verification. Root cause was conflicting session token. Fixed in system. Customer successfully logged in. Security review completed.",
+    "updates": [
+      {
+        "time": "2024-06-10T17:26:06.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-06-10T18:40:06.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      },
+      {
+        "time": "2024-06-11T02:40:06.000Z",
+        "status": "Agent Agent-A is actively investigating the issue."
+      },
+      {
+        "time": "2024-06-11T09:09:06.000Z",
+        "status": "Agent Agent-A is working on the resolution."
+      },
+      {
+        "time": "2024-06-11T12:12:06.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1020",
+    "customer_id": "CUS1047",
+    "thread_id": "THR79740",
+    "issue": "Account merged incorrectly with another user profile",
+    "priority": "MEDIUM",
+    "status": "Closed",
+    "assigned_to": "Agent-A",
+    "created_at": "2023-02-06T15:05:00.000Z",
+    "resolution": "Account access restored after identity verification. Root cause was conflicting session token. Fixed in system. Customer successfully logged in. Security review completed.",
+    "updates": [
+      {
+        "time": "2023-02-06T19:48:00.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-02-06T23:45:00.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      },
+      {
+        "time": "2023-02-07T06:58:00.000Z",
+        "status": "Agent Agent-A is actively investigating the issue."
+      },
+      {
+        "time": "2023-02-07T12:00:00.000Z",
+        "status": "Agent Agent-A is working on the resolution."
+      },
+      {
+        "time": "2023-02-07T19:45:00.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2023-02-08T03:14:00.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1021",
+    "customer_id": "CUS1056",
+    "thread_id": "THR50300",
+    "issue": "Credit card charged twice for same invoice",
+    "priority": "CRITICAL",
+    "status": "Resolved",
+    "assigned_to": "Agent-B",
+    "created_at": "2023-01-30T18:55:54.000Z",
+    "resolution": "Duplicate charge identified in billing records. Second transaction of reversed successfully. Refund initiated to original payment method. Customer confirmed receipt.",
+    "updates": [
+      {
+        "time": "2023-01-30T21:38:54.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-01-31T05:06:54.000Z",
+        "status": "Ticket assigned to Agent-B for investigation."
+      },
+      {
+        "time": "2023-01-31T10:42:54.000Z",
+        "status": "Agent Agent-B is actively investigating the issue."
+      },
+      {
+        "time": "2023-01-31T13:22:54.000Z",
+        "status": "Agent Agent-B is working on the resolution."
+      },
+      {
+        "time": "2023-01-31T19:16:54.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1022",
+    "customer_id": "CUS1070",
+    "thread_id": "THR93807",
+    "issue": "Payment failed but amount deducted from bank account",
+    "priority": "HIGH",
+    "status": "Assigned",
+    "assigned_to": "Agent-D",
+    "created_at": "2024-02-02T09:13:25.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-02-02T13:49:25.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-02-02T16:03:25.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1023",
+    "customer_id": "CUS1070",
+    "thread_id": "THR87211",
+    "issue": "Auto-renewal triggered after manual cancellation",
+    "priority": "MEDIUM",
+    "status": "Resolved",
+    "assigned_to": "Agent-C",
+    "created_at": "2023-12-31T02:28:26.000Z",
+    "resolution": "Auto-renewal cancellation confirmed. Previous renewal charge refunded on pro-rata basis. Subscription set to expire at end of billing cycle. Customer notified.",
+    "updates": [
+      {
+        "time": "2023-12-31T06:41:26.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-12-31T12:00:26.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      },
+      {
+        "time": "2023-12-31T15:47:26.000Z",
+        "status": "Agent Agent-C is actively investigating the issue."
+      },
+      {
+        "time": "2023-12-31T22:34:26.000Z",
+        "status": "Agent Agent-C is working on the resolution."
+      },
+      {
+        "time": "2024-01-01T04:41:26.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1024",
+    "customer_id": "CUS1052",
+    "thread_id": "THR95637",
+    "issue": "Net banking payment stuck in pending state",
+    "priority": "HIGH",
+    "status": "Investigating",
+    "assigned_to": "Agent-C",
+    "created_at": "2024-05-14T18:44:01.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-05-14T20:51:01.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-05-15T01:38:01.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      },
+      {
+        "time": "2024-05-15T06:24:01.000Z",
+        "status": "Agent Agent-C is actively investigating the issue."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1025",
+    "customer_id": "CUS1046",
+    "thread_id": "THR92116",
+    "issue": "UPI transaction timed out, amount not refunded",
+    "priority": "MEDIUM",
+    "status": "Resolved",
+    "assigned_to": "Agent-B",
+    "created_at": "2024-12-30T00:44:07.000Z",
+    "resolution": "UPI transaction failure investigated with payment gateway. Amount credited back to customer wallet. Technical team notified to prevent recurrence. Issue resolved.",
+    "updates": [
+      {
+        "time": "2024-12-30T08:19:07.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-12-30T11:04:07.000Z",
+        "status": "Ticket assigned to Agent-B for investigation."
+      },
+      {
+        "time": "2024-12-30T16:03:07.000Z",
+        "status": "Agent Agent-B is actively investigating the issue."
+      },
+      {
+        "time": "2024-12-30T20:21:07.000Z",
+        "status": "Agent Agent-B is working on the resolution."
+      },
+      {
+        "time": "2024-12-30T23:20:07.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1026",
+    "customer_id": "CUS1064",
+    "thread_id": "THR65683",
+    "issue": "API returning 500 internal server error intermittently",
+    "priority": "HIGH",
+    "status": "Investigating",
+    "assigned_to": "Agent-D",
+    "created_at": "2024-04-01T10:31:43.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-04-01T11:05:43.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-04-01T14:06:43.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      },
+      {
+        "time": "2024-04-01T19:34:43.000Z",
+        "status": "Ticket escalated to senior support team."
+      },
+      {
+        "time": "2024-04-01T23:38:43.000Z",
+        "status": "Agent Agent-D is actively investigating the issue."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1027",
+    "customer_id": "CUS1056",
+    "thread_id": "THR84161",
+    "issue": "Wrong item shipped, correct item not yet dispatched",
+    "priority": "HIGH",
+    "status": "Assigned",
+    "assigned_to": "Agent-D",
+    "created_at": "2024-11-11T20:11:29.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-11-12T00:26:29.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-11-12T07:48:29.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1028",
+    "customer_id": "CUS1070",
+    "thread_id": "THR73313",
+    "issue": "Wrong item shipped, correct item not yet dispatched",
+    "priority": "MEDIUM",
+    "status": "Resolved",
+    "assigned_to": "Agent-B",
+    "created_at": "2023-10-27T18:33:43.000Z",
+    "resolution": "Non-delivery confirmed after courier investigation. Replacement order dispatched with express shipping at no extra cost. Customer received replacement. Original package retrieved.",
+    "updates": [
+      {
+        "time": "2023-10-28T00:16:43.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-10-28T07:10:43.000Z",
+        "status": "Ticket assigned to Agent-B for investigation."
+      },
+      {
+        "time": "2023-10-28T09:53:43.000Z",
+        "status": "Agent Agent-B is actively investigating the issue."
+      },
+      {
+        "time": "2023-10-28T10:35:43.000Z",
+        "status": "Agent Agent-B is working on the resolution."
+      },
+      {
+        "time": "2023-10-28T16:09:43.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1029",
+    "customer_id": "CUS1037",
+    "thread_id": "THR78747",
+    "issue": "Wrong item shipped, correct item not yet dispatched",
+    "priority": "LOW",
+    "status": "Investigating",
+    "assigned_to": "Agent-A",
+    "created_at": "2024-03-23T16:33:08.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-03-23T22:39:08.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-03-24T01:25:08.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      },
+      {
+        "time": "2024-03-24T07:01:08.000Z",
+        "status": "Agent Agent-A is actively investigating the issue."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1030",
+    "customer_id": "CUS1015",
+    "thread_id": "THR72951",
+    "issue": "Refund not credited after 15 days of cancellation",
+    "priority": "CRITICAL",
+    "status": "Assigned",
+    "assigned_to": "Agent-D",
+    "created_at": "2024-06-26T16:09:59.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-06-26T20:51:59.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-06-27T02:16:59.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1031",
+    "customer_id": "CUS1038",
+    "thread_id": "THR72511",
+    "issue": "Refund not credited after 15 days of cancellation",
+    "priority": "HIGH",
+    "status": "Assigned",
+    "assigned_to": "Agent-C",
+    "created_at": "2024-08-23T04:42:30.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-08-23T08:50:30.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-08-23T15:16:30.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1032",
+    "customer_id": "CUS1004",
+    "thread_id": "THR81009",
+    "issue": "Email address change not reflecting after update",
+    "priority": "MEDIUM",
+    "status": "Resolved",
+    "assigned_to": "Agent-D",
+    "created_at": "2023-06-29T22:17:54.000Z",
+    "resolution": "Account access restored after identity verification. Root cause was conflicting session token. Fixed in system. Customer successfully logged in. Security review completed.",
+    "updates": [
+      {
+        "time": "2023-06-29T23:05:54.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-06-30T03:42:54.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      },
+      {
+        "time": "2023-06-30T05:06:54.000Z",
+        "status": "Agent Agent-D is actively investigating the issue."
+      },
+      {
+        "time": "2023-06-30T10:48:54.000Z",
+        "status": "Agent Agent-D is working on the resolution."
+      },
+      {
+        "time": "2023-06-30T14:55:54.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1033",
+    "customer_id": "CUS1012",
+    "thread_id": "THR51967",
+    "issue": "Suspicious login from unknown device",
+    "priority": "HIGH",
+    "status": "Resolved",
+    "assigned_to": "Agent-D",
+    "created_at": "2023-12-30T06:43:20.000Z",
+    "resolution": "Investigation confirmed unauthorized access. All unrecognized charges totaling refunded to original payment method. Account credentials reset and security audit completed.",
+    "updates": [
+      {
+        "time": "2023-12-30T14:38:20.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-12-30T16:47:20.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      },
+      {
+        "time": "2023-12-30T21:37:20.000Z",
+        "status": "Agent Agent-D is actively investigating the issue."
+      },
+      {
+        "time": "2023-12-31T01:12:20.000Z",
+        "status": "Agent Agent-D is working on the resolution."
+      },
+      {
+        "time": "2023-12-31T06:07:20.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1034",
+    "customer_id": "CUS1075",
+    "thread_id": "THR96011",
+    "issue": "Unrecognized payment of \u20b914,999 from account",
+    "priority": "CRITICAL",
+    "status": "Closed",
+    "assigned_to": "Agent-B",
+    "created_at": "2023-05-20T00:51:09.000Z",
+    "resolution": "Fraudulent transactions identified and reversed. Account secured with forced password reset and 2FA enabled. Fraud team has blacklisted the suspicious IP. Customer notified via email.",
+    "updates": [
+      {
+        "time": "2023-05-20T03:43:09.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-05-20T07:12:09.000Z",
+        "status": "Ticket assigned to Agent-B for investigation."
+      },
+      {
+        "time": "2023-05-20T10:17:09.000Z",
+        "status": "Agent Agent-B is actively investigating the issue."
+      },
+      {
+        "time": "2023-05-20T11:13:09.000Z",
+        "status": "Agent Agent-B is working on the resolution."
+      },
+      {
+        "time": "2023-05-20T18:02:09.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2023-05-20T23:11:09.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1035",
+    "customer_id": "CUS1067",
+    "thread_id": "THR62356",
+    "issue": "Customer requesting refund for unused subscription period",
+    "priority": "MEDIUM",
+    "status": "Resolved",
+    "assigned_to": "Agent-D",
+    "created_at": "2023-07-10T09:51:20.000Z",
+    "resolution": "Subscription refund for unused period calculated and processed on pro-rata basis. Amount credited to wallet for future use as per refund policy. Customer accepted resolution.",
+    "updates": [
+      {
+        "time": "2023-07-10T16:35:20.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-07-10T20:21:20.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      },
+      {
+        "time": "2023-07-11T03:02:20.000Z",
+        "status": "Agent Agent-D is actively investigating the issue."
+      },
+      {
+        "time": "2023-07-11T07:02:20.000Z",
+        "status": "Agent Agent-D is working on the resolution."
+      },
+      {
+        "time": "2023-07-11T12:34:20.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1036",
+    "customer_id": "CUS1013",
+    "thread_id": "THR74232",
+    "issue": "Wallet balance deducted, order not confirmed",
+    "priority": "MEDIUM",
+    "status": "Closed",
+    "assigned_to": "Agent-D",
+    "created_at": "2023-07-01T10:24:52.000Z",
+    "resolution": "UPI transaction failure investigated with payment gateway. Amount credited back to customer wallet. Technical team notified to prevent recurrence. Issue resolved.",
+    "updates": [
+      {
+        "time": "2023-07-01T13:34:52.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-07-01T20:25:52.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      },
+      {
+        "time": "2023-07-01T23:09:52.000Z",
+        "status": "Agent Agent-D is actively investigating the issue."
+      },
+      {
+        "time": "2023-07-02T02:27:52.000Z",
+        "status": "Agent Agent-D is working on the resolution."
+      },
+      {
+        "time": "2023-07-02T07:01:52.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2023-07-02T10:38:52.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1037",
+    "customer_id": "CUS1030",
+    "thread_id": "THR51939",
+    "issue": "Customer reports identity theft linked to account",
+    "priority": "CRITICAL",
+    "status": "Closed",
+    "assigned_to": "Agent-B",
+    "created_at": "2024-08-23T18:20:44.000Z",
+    "resolution": "Unauthorized orders cancelled and full refund of processed. Fraud alert raised with payments team. Customer advised to monitor account and update security details.",
+    "updates": [
+      {
+        "time": "2024-08-23T19:02:44.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-08-23T23:08:44.000Z",
+        "status": "Ticket assigned to Agent-B for investigation."
+      },
+      {
+        "time": "2024-08-24T06:59:44.000Z",
+        "status": "Agent Agent-B is actively investigating the issue."
+      },
+      {
+        "time": "2024-08-24T08:15:44.000Z",
+        "status": "Agent Agent-B is working on the resolution."
+      },
+      {
+        "time": "2024-08-24T10:30:44.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2024-08-24T17:13:44.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1038",
+    "customer_id": "CUS1030",
+    "thread_id": "THR89441",
+    "issue": "Tracking ID not updating for 5 days",
+    "priority": "MEDIUM",
+    "status": "Closed",
+    "assigned_to": "Agent-C",
+    "created_at": "2023-09-15T00:55:07.000Z",
+    "resolution": "Wrong item dispatch confirmed. Correct item reshipped immediately. Return label sent for incorrect item. Customer received correct product. Full apology and discount issued.",
+    "updates": [
+      {
+        "time": "2023-09-15T02:24:07.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-09-15T08:25:07.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      },
+      {
+        "time": "2023-09-15T11:45:07.000Z",
+        "status": "Agent Agent-C is actively investigating the issue."
+      },
+      {
+        "time": "2023-09-15T16:25:07.000Z",
+        "status": "Agent Agent-C is working on the resolution."
+      },
+      {
+        "time": "2023-09-15T21:59:07.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2023-09-16T03:24:07.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1039",
+    "customer_id": "CUS1024",
+    "thread_id": "THR76209",
+    "issue": "Wrong item shipped, correct item not yet dispatched",
+    "priority": "LOW",
+    "status": "Open",
+    "assigned_to": "Agent-B",
+    "created_at": "2023-05-26T12:37:55.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2023-05-26T14:34:55.000Z",
+        "status": "Ticket received and logged in the system."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1040",
+    "customer_id": "CUS1003",
+    "thread_id": "THR73951",
+    "issue": "Pro-rated adjustment not reflected in invoice",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "assigned_to": "Agent-C",
+    "created_at": "2024-03-11T00:51:52.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-03-11T03:44:52.000Z",
+        "status": "Ticket received and logged in the system."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1041",
+    "customer_id": "CUS1055",
+    "thread_id": "THR85723",
+    "issue": "Credit card charged twice for same invoice",
+    "priority": "CRITICAL",
+    "status": "Resolved",
+    "assigned_to": "Agent-A",
+    "created_at": "2023-04-16T07:30:16.000Z",
+    "resolution": "UPI transaction failure investigated with payment gateway. Amount credited back to customer wallet. Technical team notified to prevent recurrence. Issue resolved.",
+    "updates": [
+      {
+        "time": "2023-04-16T15:27:16.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-04-16T17:30:16.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      },
+      {
+        "time": "2023-04-16T18:53:16.000Z",
+        "status": "Agent Agent-A is actively investigating the issue."
+      },
+      {
+        "time": "2023-04-17T01:53:16.000Z",
+        "status": "Agent Agent-A is working on the resolution."
+      },
+      {
+        "time": "2023-04-17T03:46:16.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1042",
+    "customer_id": "CUS1097",
+    "thread_id": "THR69428",
+    "issue": "Invoice showing incorrect amount for current month",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "assigned_to": "Agent-C",
+    "created_at": "2024-10-12T19:45:00.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-10-12T22:43:00.000Z",
+        "status": "Ticket received and logged in the system."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1043",
+    "customer_id": "CUS1035",
+    "thread_id": "THR78966",
+    "issue": "UPI transaction timed out, amount not refunded",
+    "priority": "HIGH",
+    "status": "Resolved",
+    "assigned_to": "Agent-C",
+    "created_at": "2023-05-15T23:28:22.000Z",
+    "resolution": "Payment failure confirmed due to gateway timeout. Amount of has been reversed to source account. Transaction reconciled and customer notified. Expected credit in 3-5 business days.",
+    "updates": [
+      {
+        "time": "2023-05-16T06:22:22.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-05-16T10:59:22.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      },
+      {
+        "time": "2023-05-16T18:48:22.000Z",
+        "status": "Agent Agent-C is actively investigating the issue."
+      },
+      {
+        "time": "2023-05-17T01:06:22.000Z",
+        "status": "Agent Agent-C is working on the resolution."
+      },
+      {
+        "time": "2023-05-17T03:11:22.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1044",
+    "customer_id": "CUS1091",
+    "thread_id": "THR51978",
+    "issue": "Cannot cancel subscription from account settings",
+    "priority": "MEDIUM",
+    "status": "Closed",
+    "assigned_to": "Agent-D",
+    "created_at": "2024-05-14T00:44:41.000Z",
+    "resolution": "Plan upgrade applied retroactively. Enterprise features unlocked. Customer confirmed access. Billing adjusted. One month credit added for the inconvenience caused.",
+    "updates": [
+      {
+        "time": "2024-05-14T02:20:41.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-05-14T03:53:41.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      },
+      {
+        "time": "2024-05-14T07:01:41.000Z",
+        "status": "Agent Agent-D is actively investigating the issue."
+      },
+      {
+        "time": "2024-05-14T14:26:41.000Z",
+        "status": "Agent Agent-D is working on the resolution."
+      },
+      {
+        "time": "2024-05-14T15:50:41.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2024-05-14T23:27:41.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1045",
+    "customer_id": "CUS1040",
+    "thread_id": "THR64304",
+    "issue": "Account suspended incorrectly without violation",
+    "priority": "MEDIUM",
+    "status": "Investigating",
+    "assigned_to": "Agent-B",
+    "created_at": "2024-02-27T03:06:30.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-02-27T10:12:30.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-02-27T10:55:30.000Z",
+        "status": "Ticket assigned to Agent-B for investigation."
+      },
+      {
+        "time": "2024-02-27T12:24:30.000Z",
+        "status": "Ticket escalated to senior support team."
+      },
+      {
+        "time": "2024-02-27T17:16:30.000Z",
+        "status": "Agent Agent-B is actively investigating the issue."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1046",
+    "customer_id": "CUS1075",
+    "thread_id": "THR51798",
+    "issue": "Credit card charged twice for same invoice",
+    "priority": "MEDIUM",
+    "status": "Assigned",
+    "assigned_to": "Agent-A",
+    "created_at": "2023-12-16T00:58:42.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2023-12-16T07:17:42.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-12-16T14:50:42.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1047",
+    "customer_id": "CUS1068",
+    "thread_id": "THR59897",
+    "issue": "Subscription not activated after successful payment",
+    "priority": "HIGH",
+    "status": "Assigned",
+    "assigned_to": "Agent-C",
+    "created_at": "2024-04-13T17:14:01.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-04-13T23:49:01.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-04-14T04:00:01.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1048",
+    "customer_id": "CUS1052",
+    "thread_id": "THR74927",
+    "issue": "API returning 500 internal server error intermittently",
+    "priority": "LOW",
+    "status": "Assigned",
+    "assigned_to": "Agent-B",
+    "created_at": "2023-06-12T09:00:48.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2023-06-12T13:08:48.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-06-12T14:34:48.000Z",
+        "status": "Ticket assigned to Agent-B for investigation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1049",
+    "customer_id": "CUS1013",
+    "thread_id": "THR86016",
+    "issue": "Net banking payment stuck in pending state",
+    "priority": "CRITICAL",
+    "status": "Resolved",
+    "assigned_to": "Agent-C",
+    "created_at": "2024-04-14T08:09:13.000Z",
+    "resolution": "Duplicate charge identified in billing records. Second transaction of reversed successfully. Refund initiated to original payment method. Customer confirmed receipt.",
+    "updates": [
+      {
+        "time": "2024-04-14T15:02:13.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-04-14T16:50:13.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      },
+      {
+        "time": "2024-04-14T18:44:13.000Z",
+        "status": "Agent Agent-C is actively investigating the issue."
+      },
+      {
+        "time": "2024-04-14T21:48:13.000Z",
+        "status": "Agent Agent-C is working on the resolution."
+      },
+      {
+        "time": "2024-04-15T02:09:13.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1050",
+    "customer_id": "CUS1009",
+    "thread_id": "THR84910",
+    "issue": "Unauthorized transaction detected on account",
+    "priority": "CRITICAL",
+    "status": "Closed",
+    "assigned_to": "Agent-D",
+    "created_at": "2024-08-26T08:50:37.000Z",
+    "resolution": "Unauthorized orders cancelled and full refund of processed. Fraud alert raised with payments team. Customer advised to monitor account and update security details.",
+    "updates": [
+      {
+        "time": "2024-08-26T12:41:37.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-08-26T15:42:37.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      },
+      {
+        "time": "2024-08-26T17:26:37.000Z",
+        "status": "Agent Agent-D is actively investigating the issue."
+      },
+      {
+        "time": "2024-08-26T22:24:37.000Z",
+        "status": "Agent Agent-D is working on the resolution."
+      },
+      {
+        "time": "2024-08-27T00:52:37.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2024-08-27T07:38:37.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1051",
+    "customer_id": "CUS1003",
+    "thread_id": "THR76827",
+    "issue": "Enterprise features not accessible after plan upgrade",
+    "priority": "MEDIUM",
+    "status": "Resolved",
+    "assigned_to": "Agent-D",
+    "created_at": "2023-07-17T19:21:35.000Z",
+    "resolution": "Plan upgrade applied retroactively. Enterprise features unlocked. Customer confirmed access. Billing adjusted. One month credit added for the inconvenience caused.",
+    "updates": [
+      {
+        "time": "2023-07-18T01:38:35.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-07-18T02:28:35.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      },
+      {
+        "time": "2023-07-18T10:04:35.000Z",
+        "status": "Agent Agent-D is actively investigating the issue."
+      },
+      {
+        "time": "2023-07-18T11:35:35.000Z",
+        "status": "Agent Agent-D is working on the resolution."
+      },
+      {
+        "time": "2023-07-18T14:03:35.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1052",
+    "customer_id": "CUS1008",
+    "thread_id": "THR84665",
+    "issue": "Customer unable to login after password reset",
+    "priority": "MEDIUM",
+    "status": "Resolved",
+    "assigned_to": "Agent-C",
+    "created_at": "2024-09-29T03:02:28.000Z",
+    "resolution": "Account access restored after identity verification. Root cause was conflicting session token. Fixed in system. Customer successfully logged in. Security review completed.",
+    "updates": [
+      {
+        "time": "2024-09-29T07:14:28.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-09-29T09:35:28.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      },
+      {
+        "time": "2024-09-29T17:13:28.000Z",
+        "status": "Agent Agent-C is actively investigating the issue."
+      },
+      {
+        "time": "2024-09-29T21:23:28.000Z",
+        "status": "Agent Agent-C is working on the resolution."
+      },
+      {
+        "time": "2024-09-30T00:35:28.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1053",
+    "customer_id": "CUS1004",
+    "thread_id": "THR68601",
+    "issue": "Courier partner not reachable for delivery confirmation",
+    "priority": "LOW",
+    "status": "Resolved",
+    "assigned_to": "Agent-C",
+    "created_at": "2023-08-20T04:55:45.000Z",
+    "resolution": "Delivery delay confirmed due to logistics partner backlog. Shipment expedited with priority flag. Package delivered successfully. Customer confirmed receipt and case closed.",
+    "updates": [
+      {
+        "time": "2023-08-20T07:47:45.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-08-20T11:20:45.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      },
+      {
+        "time": "2023-08-20T12:33:45.000Z",
+        "status": "Agent Agent-C is actively investigating the issue."
+      },
+      {
+        "time": "2023-08-20T14:46:45.000Z",
+        "status": "Agent Agent-C is working on the resolution."
+      },
+      {
+        "time": "2023-08-20T20:36:45.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1054",
+    "customer_id": "CUS1064",
+    "thread_id": "THR82865",
+    "issue": "Courier partner not reachable for delivery confirmation",
+    "priority": "MEDIUM",
+    "status": "Closed",
+    "assigned_to": "Agent-C",
+    "created_at": "2024-11-03T21:21:48.000Z",
+    "resolution": "Wrong item dispatch confirmed. Correct item reshipped immediately. Return label sent for incorrect item. Customer received correct product. Full apology and discount issued.",
+    "updates": [
+      {
+        "time": "2024-11-04T03:32:48.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-11-04T04:33:48.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      },
+      {
+        "time": "2024-11-04T11:23:48.000Z",
+        "status": "Agent Agent-C is actively investigating the issue."
+      },
+      {
+        "time": "2024-11-04T16:44:48.000Z",
+        "status": "Agent Agent-C is working on the resolution."
+      },
+      {
+        "time": "2024-11-04T23:43:48.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2024-11-05T07:16:48.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1055",
+    "customer_id": "CUS1040",
+    "thread_id": "THR65531",
+    "issue": "SDK throwing authentication exception on valid credentials",
+    "priority": "MEDIUM",
+    "status": "Investigating",
+    "assigned_to": "Agent-B",
+    "created_at": "2024-03-27T01:33:03.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-03-27T02:20:03.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-03-27T06:30:03.000Z",
+        "status": "Ticket assigned to Agent-B for investigation."
+      },
+      {
+        "time": "2024-03-27T12:38:03.000Z",
+        "status": "Agent Agent-B is actively investigating the issue."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1056",
+    "customer_id": "CUS1052",
+    "thread_id": "THR74508",
+    "issue": "Two-factor authentication code not being received",
+    "priority": "CRITICAL",
+    "status": "Resolved",
+    "assigned_to": "Agent-A",
+    "created_at": "2023-02-02T22:55:38.000Z",
+    "resolution": "2FA delivery issue resolved. Problem traced to SMS gateway failure. Backup authentication method enabled. Customer regained access. SMS provider notified.",
+    "updates": [
+      {
+        "time": "2023-02-03T06:51:38.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-02-03T09:18:38.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      },
+      {
+        "time": "2023-02-03T13:03:38.000Z",
+        "status": "Agent Agent-A is actively investigating the issue."
+      },
+      {
+        "time": "2023-02-03T17:53:38.000Z",
+        "status": "Agent Agent-A is working on the resolution."
+      },
+      {
+        "time": "2023-02-04T01:43:38.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1057",
+    "customer_id": "CUS1002",
+    "thread_id": "THR66346",
+    "issue": "Customer requesting refund for unused subscription period",
+    "priority": "MEDIUM",
+    "status": "Closed",
+    "assigned_to": "Agent-C",
+    "created_at": "2024-08-04T00:59:44.000Z",
+    "resolution": "Subscription refund for unused period calculated and processed on pro-rata basis. Amount credited to wallet for future use as per refund policy. Customer accepted resolution.",
+    "updates": [
+      {
+        "time": "2024-08-04T05:53:44.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-08-04T11:24:44.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      },
+      {
+        "time": "2024-08-04T12:05:44.000Z",
+        "status": "Agent Agent-C is actively investigating the issue."
+      },
+      {
+        "time": "2024-08-04T16:10:44.000Z",
+        "status": "Agent Agent-C is working on the resolution."
+      },
+      {
+        "time": "2024-08-04T22:30:44.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2024-08-05T04:51:44.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1058",
+    "customer_id": "CUS1056",
+    "thread_id": "THR62478",
+    "issue": "Unauthorized transaction detected on account",
+    "priority": "CRITICAL",
+    "status": "Investigating",
+    "assigned_to": "Agent-A",
+    "created_at": "2023-03-14T07:10:04.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2023-03-14T09:59:04.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-03-14T12:21:04.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      },
+      {
+        "time": "2023-03-14T16:50:04.000Z",
+        "status": "Agent Agent-A is actively investigating the issue."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1059",
+    "customer_id": "CUS1071",
+    "thread_id": "THR61657",
+    "issue": "Partial refund received, remaining amount pending",
+    "priority": "HIGH",
+    "status": "Closed",
+    "assigned_to": "Agent-C",
+    "created_at": "2023-10-02T08:57:46.000Z",
+    "resolution": "Subscription refund for unused period calculated and processed on pro-rata basis. Amount credited to wallet for future use as per refund policy. Customer accepted resolution.",
+    "updates": [
+      {
+        "time": "2023-10-02T10:48:46.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-10-02T14:52:46.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      },
+      {
+        "time": "2023-10-02T16:30:46.000Z",
+        "status": "Agent Agent-C is actively investigating the issue."
+      },
+      {
+        "time": "2023-10-02T20:36:46.000Z",
+        "status": "Agent Agent-C is working on the resolution."
+      },
+      {
+        "time": "2023-10-03T00:20:46.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2023-10-03T07:44:46.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1060",
+    "customer_id": "CUS1024",
+    "thread_id": "THR52641",
+    "issue": "Subscription paused but customer still being charged",
+    "priority": "HIGH",
+    "status": "Closed",
+    "assigned_to": "Agent-A",
+    "created_at": "2024-10-06T11:12:14.000Z",
+    "resolution": "Auto-renewal cancellation confirmed. Previous renewal charge refunded on pro-rata basis. Subscription set to expire at end of billing cycle. Customer notified.",
+    "updates": [
+      {
+        "time": "2024-10-06T16:45:14.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-10-06T23:24:14.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      },
+      {
+        "time": "2024-10-07T03:30:14.000Z",
+        "status": "Agent Agent-A is actively investigating the issue."
+      },
+      {
+        "time": "2024-10-07T05:09:14.000Z",
+        "status": "Agent Agent-A is working on the resolution."
+      },
+      {
+        "time": "2024-10-07T12:22:14.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2024-10-07T19:18:14.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1061",
+    "customer_id": "CUS1076",
+    "thread_id": "THR86641",
+    "issue": "Plan downgrade not applied at next billing cycle",
+    "priority": "HIGH",
+    "status": "Resolved",
+    "assigned_to": "Agent-D",
+    "created_at": "2023-04-05T04:32:12.000Z",
+    "resolution": "Auto-renewal cancellation confirmed. Previous renewal charge refunded on pro-rata basis. Subscription set to expire at end of billing cycle. Customer notified.",
+    "updates": [
+      {
+        "time": "2023-04-05T10:55:12.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-04-05T14:23:12.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      },
+      {
+        "time": "2023-04-05T16:32:12.000Z",
+        "status": "Agent Agent-D is actively investigating the issue."
+      },
+      {
+        "time": "2023-04-05T22:28:12.000Z",
+        "status": "Agent Agent-D is working on the resolution."
+      },
+      {
+        "time": "2023-04-06T05:33:12.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1062",
+    "customer_id": "CUS1050",
+    "thread_id": "THR51339",
+    "issue": "Account merged incorrectly with another user profile",
+    "priority": "MEDIUM",
+    "status": "Closed",
+    "assigned_to": "Agent-D",
+    "created_at": "2024-11-08T16:58:06.000Z",
+    "resolution": "Login issue resolved by clearing cached credentials from backend. Customer able to login successfully. Advised to clear browser cache and update password periodically.",
+    "updates": [
+      {
+        "time": "2024-11-08T21:29:06.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-11-08T22:55:06.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      },
+      {
+        "time": "2024-11-08T23:44:06.000Z",
+        "status": "Agent Agent-D is actively investigating the issue."
+      },
+      {
+        "time": "2024-11-09T05:05:06.000Z",
+        "status": "Agent Agent-D is working on the resolution."
+      },
+      {
+        "time": "2024-11-09T08:14:06.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2024-11-09T10:05:06.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1063",
+    "customer_id": "CUS1036",
+    "thread_id": "THR51086",
+    "issue": "Unrecognized payment of \u20b914,999 from account",
+    "priority": "CRITICAL",
+    "status": "Assigned",
+    "assigned_to": "Agent-B",
+    "created_at": "2024-01-06T15:23:56.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-01-06T18:29:56.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-01-06T19:46:56.000Z",
+        "status": "Ticket assigned to Agent-B for investigation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1064",
+    "customer_id": "CUS1092",
+    "thread_id": "THR75078",
+    "issue": "Customer requesting consolidated invoice for multiple orders",
+    "priority": "LOW",
+    "status": "Resolved",
+    "assigned_to": "Agent-B",
+    "created_at": "2023-04-18T08:47:09.000Z",
+    "resolution": "Tax exemption certificate applied retroactively. Revised invoices for last 3 months generated. Excess tax amount refunded. Customer's billing profile updated.",
+    "updates": [
+      {
+        "time": "2023-04-18T14:20:09.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-04-18T15:48:09.000Z",
+        "status": "Ticket assigned to Agent-B for investigation."
+      },
+      {
+        "time": "2023-04-18T18:29:09.000Z",
+        "status": "Agent Agent-B is actively investigating the issue."
+      },
+      {
+        "time": "2023-04-18T21:07:09.000Z",
+        "status": "Agent Agent-B is working on the resolution."
+      },
+      {
+        "time": "2023-04-19T01:12:09.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1065",
+    "customer_id": "CUS1041",
+    "thread_id": "THR70278",
+    "issue": "Data export feature broken, CSV download failing",
+    "priority": "CRITICAL",
+    "status": "Assigned",
+    "assigned_to": "Agent-D",
+    "created_at": "2023-12-09T07:32:30.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2023-12-09T15:10:30.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-12-09T16:02:30.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1066",
+    "customer_id": "CUS1039",
+    "thread_id": "THR56924",
+    "issue": "Suspicious login from unknown device",
+    "priority": "MEDIUM",
+    "status": "Resolved",
+    "assigned_to": "Agent-D",
+    "created_at": "2023-11-15T23:27:07.000Z",
+    "resolution": "Unauthorized orders cancelled and full refund of processed. Fraud alert raised with payments team. Customer advised to monitor account and update security details.",
+    "updates": [
+      {
+        "time": "2023-11-16T04:49:07.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-11-16T07:22:07.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      },
+      {
+        "time": "2023-11-16T10:24:07.000Z",
+        "status": "Agent Agent-D is actively investigating the issue."
+      },
+      {
+        "time": "2023-11-16T16:39:07.000Z",
+        "status": "Agent Agent-D is working on the resolution."
+      },
+      {
+        "time": "2023-11-16T20:54:07.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1067",
+    "customer_id": "CUS1041",
+    "thread_id": "THR57067",
+    "issue": "Order delayed beyond estimated delivery date",
+    "priority": "LOW",
+    "status": "Assigned",
+    "assigned_to": "Agent-B",
+    "created_at": "2023-05-14T07:13:53.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2023-05-14T11:58:53.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-05-14T16:58:53.000Z",
+        "status": "Ticket assigned to Agent-B for investigation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1068",
+    "customer_id": "CUS1087",
+    "thread_id": "THR64078",
+    "issue": "Account locked due to repeated failed login attempts",
+    "priority": "LOW",
+    "status": "Closed",
+    "assigned_to": "Agent-C",
+    "created_at": "2023-06-04T15:31:45.000Z",
+    "resolution": "2FA delivery issue resolved. Problem traced to SMS gateway failure. Backup authentication method enabled. Customer regained access. SMS provider notified.",
+    "updates": [
+      {
+        "time": "2023-06-04T18:33:45.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-06-04T19:30:45.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      },
+      {
+        "time": "2023-06-04T23:37:45.000Z",
+        "status": "Agent Agent-C is actively investigating the issue."
+      },
+      {
+        "time": "2023-06-05T00:25:45.000Z",
+        "status": "Agent Agent-C is working on the resolution."
+      },
+      {
+        "time": "2023-06-05T04:11:45.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2023-06-05T07:49:45.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1069",
+    "customer_id": "CUS1023",
+    "thread_id": "THR56717",
+    "issue": "SDK throwing authentication exception on valid credentials",
+    "priority": "CRITICAL",
+    "status": "Open",
+    "assigned_to": "Agent-B",
+    "created_at": "2024-08-26T22:57:02.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-08-27T05:19:02.000Z",
+        "status": "Ticket received and logged in the system."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1070",
+    "customer_id": "CUS1048",
+    "thread_id": "THR78609",
+    "issue": "Auto-renewal triggered after manual cancellation",
+    "priority": "MEDIUM",
+    "status": "Resolved",
+    "assigned_to": "Agent-A",
+    "created_at": "2023-10-16T07:33:21.000Z",
+    "resolution": "Subscription activation delay resolved. Payment confirmed but activation job had failed silently. Manually triggered. Customer account now shows active subscription with correct expiry.",
+    "updates": [
+      {
+        "time": "2023-10-16T08:25:21.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-10-16T14:12:21.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      },
+      {
+        "time": "2023-10-16T21:12:21.000Z",
+        "status": "Agent Agent-A is actively investigating the issue."
+      },
+      {
+        "time": "2023-10-17T05:09:21.000Z",
+        "status": "Agent Agent-A is working on the resolution."
+      },
+      {
+        "time": "2023-10-17T05:39:21.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1071",
+    "customer_id": "CUS1023",
+    "thread_id": "THR85934",
+    "issue": "Subscription not activated after successful payment",
+    "priority": "MEDIUM",
+    "status": "Closed",
+    "assigned_to": "Agent-A",
+    "created_at": "2024-11-05T23:48:23.000Z",
+    "resolution": "Plan upgrade applied retroactively. Enterprise features unlocked. Customer confirmed access. Billing adjusted. One month credit added for the inconvenience caused.",
+    "updates": [
+      {
+        "time": "2024-11-06T05:45:23.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-11-06T08:48:23.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      },
+      {
+        "time": "2024-11-06T14:51:23.000Z",
+        "status": "Agent Agent-A is actively investigating the issue."
+      },
+      {
+        "time": "2024-11-06T20:44:23.000Z",
+        "status": "Agent Agent-A is working on the resolution."
+      },
+      {
+        "time": "2024-11-06T22:41:23.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2024-11-07T00:04:23.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1072",
+    "customer_id": "CUS1093",
+    "thread_id": "THR82067",
+    "issue": "Suspicious login from unknown device",
+    "priority": "CRITICAL",
+    "status": "Assigned",
+    "assigned_to": "Agent-D",
+    "created_at": "2024-05-19T20:09:15.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-05-19T20:58:15.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-05-20T04:43:15.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1073",
+    "customer_id": "CUS1060",
+    "thread_id": "THR74949",
+    "issue": "Courier partner not reachable for delivery confirmation",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "assigned_to": "Agent-A",
+    "created_at": "2024-12-08T17:34:09.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-12-09T01:21:09.000Z",
+        "status": "Ticket received and logged in the system."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1074",
+    "customer_id": "CUS1060",
+    "thread_id": "THR61388",
+    "issue": "Billing cycle date changed without customer consent",
+    "priority": "LOW",
+    "status": "Resolved",
+    "assigned_to": "Agent-C",
+    "created_at": "2023-10-10T03:04:29.000Z",
+    "resolution": "Billing cycle date correction applied as per customer's original enrollment date. Proration calculated and adjusted in next invoice. Customer confirmed satisfaction.",
+    "updates": [
+      {
+        "time": "2023-10-10T07:46:29.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-10-10T12:46:29.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      },
+      {
+        "time": "2023-10-10T17:01:29.000Z",
+        "status": "Agent Agent-C is actively investigating the issue."
+      },
+      {
+        "time": "2023-10-10T23:17:29.000Z",
+        "status": "Agent Agent-C is working on the resolution."
+      },
+      {
+        "time": "2023-10-11T05:29:29.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1075",
+    "customer_id": "CUS1056",
+    "thread_id": "THR74675",
+    "issue": "Account merged incorrectly with another user profile",
+    "priority": "MEDIUM",
+    "status": "Assigned",
+    "assigned_to": "Agent-B",
+    "created_at": "2024-03-22T12:36:17.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-03-22T16:56:17.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-03-22T18:55:17.000Z",
+        "status": "Ticket assigned to Agent-B for investigation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1076",
+    "customer_id": "CUS1063",
+    "thread_id": "THR87649",
+    "issue": "Shipment returned to origin without delivery attempt",
+    "priority": "HIGH",
+    "status": "Investigating",
+    "assigned_to": "Agent-A",
+    "created_at": "2023-03-17T17:37:55.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2023-03-17T23:11:55.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-03-18T01:47:55.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      },
+      {
+        "time": "2023-03-18T05:56:55.000Z",
+        "status": "Agent Agent-A is actively investigating the issue."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1077",
+    "customer_id": "CUS1073",
+    "thread_id": "THR91677",
+    "issue": "Order delayed beyond estimated delivery date",
+    "priority": "LOW",
+    "status": "Resolved",
+    "assigned_to": "Agent-D",
+    "created_at": "2023-05-08T10:07:18.000Z",
+    "resolution": "Tracking investigation completed. Package found at regional hub. Redelivery scheduled. Customer received order the following day. Compensation coupon issued for inconvenience.",
+    "updates": [
+      {
+        "time": "2023-05-08T11:42:18.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-05-08T12:21:18.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      },
+      {
+        "time": "2023-05-08T19:47:18.000Z",
+        "status": "Agent Agent-D is actively investigating the issue."
+      },
+      {
+        "time": "2023-05-09T03:12:18.000Z",
+        "status": "Agent Agent-D is working on the resolution."
+      },
+      {
+        "time": "2023-05-09T06:32:18.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1078",
+    "customer_id": "CUS1099",
+    "thread_id": "THR80593",
+    "issue": "Pro-rated adjustment not reflected in invoice",
+    "priority": "LOW",
+    "status": "Investigating",
+    "assigned_to": "Agent-D",
+    "created_at": "2023-09-15T00:25:48.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2023-09-15T02:10:48.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-09-15T06:31:48.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      },
+      {
+        "time": "2023-09-15T12:29:48.000Z",
+        "status": "Agent Agent-D is actively investigating the issue."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1079",
+    "customer_id": "CUS1058",
+    "thread_id": "THR76263",
+    "issue": "Customer reports identity theft linked to account",
+    "priority": "CRITICAL",
+    "status": "Closed",
+    "assigned_to": "Agent-C",
+    "created_at": "2023-01-11T06:57:53.000Z",
+    "resolution": "Suspicious login flagged and session terminated. Account locked temporarily, customer identity re-verified. No financial loss detected. Security measures strengthened.",
+    "updates": [
+      {
+        "time": "2023-01-11T12:48:53.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-01-11T17:21:53.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      },
+      {
+        "time": "2023-01-11T22:32:53.000Z",
+        "status": "Agent Agent-C is actively investigating the issue."
+      },
+      {
+        "time": "2023-01-12T05:19:53.000Z",
+        "status": "Agent Agent-C is working on the resolution."
+      },
+      {
+        "time": "2023-01-12T08:18:53.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2023-01-12T15:22:53.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1080",
+    "customer_id": "CUS1066",
+    "thread_id": "THR73518",
+    "issue": "Wallet balance deducted, order not confirmed",
+    "priority": "MEDIUM",
+    "status": "Assigned",
+    "assigned_to": "Agent-D",
+    "created_at": "2024-10-10T10:43:43.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-10-10T14:45:43.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-10-10T22:06:43.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1081",
+    "customer_id": "CUS1027",
+    "thread_id": "THR95247",
+    "issue": "Net banking payment stuck in pending state",
+    "priority": "LOW",
+    "status": "Assigned",
+    "assigned_to": "Agent-D",
+    "created_at": "2024-10-30T20:36:22.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-10-30T21:30:22.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-10-31T00:23:22.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1082",
+    "customer_id": "CUS1059",
+    "thread_id": "THR60554",
+    "issue": "Customer reports identity theft linked to account",
+    "priority": "LOW",
+    "status": "Resolved",
+    "assigned_to": "Agent-A",
+    "created_at": "2023-11-21T07:51:57.000Z",
+    "resolution": "Suspicious login flagged and session terminated. Account locked temporarily, customer identity re-verified. No financial loss detected. Security measures strengthened.",
+    "updates": [
+      {
+        "time": "2023-11-21T10:42:57.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-11-21T17:21:57.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      },
+      {
+        "time": "2023-11-21T20:49:57.000Z",
+        "status": "Agent Agent-A is actively investigating the issue."
+      },
+      {
+        "time": "2023-11-21T22:21:57.000Z",
+        "status": "Agent Agent-A is working on the resolution."
+      },
+      {
+        "time": "2023-11-22T01:37:57.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1083",
+    "customer_id": "CUS1050",
+    "thread_id": "THR84259",
+    "issue": "UPI transaction timed out, amount not refunded",
+    "priority": "LOW",
+    "status": "Resolved",
+    "assigned_to": "Agent-C",
+    "created_at": "2024-12-08T20:40:51.000Z",
+    "resolution": "Payment failure confirmed due to gateway timeout. Amount of has been reversed to source account. Transaction reconciled and customer notified. Expected credit in 3-5 business days.",
+    "updates": [
+      {
+        "time": "2024-12-09T03:35:51.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-12-09T08:16:51.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      },
+      {
+        "time": "2024-12-09T09:22:51.000Z",
+        "status": "Agent Agent-C is actively investigating the issue."
+      },
+      {
+        "time": "2024-12-09T12:06:51.000Z",
+        "status": "Agent Agent-C is working on the resolution."
+      },
+      {
+        "time": "2024-12-09T16:10:51.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1084",
+    "customer_id": "CUS1089",
+    "thread_id": "THR69338",
+    "issue": "Billing cycle date changed without customer consent",
+    "priority": "MEDIUM",
+    "status": "Assigned",
+    "assigned_to": "Agent-A",
+    "created_at": "2024-06-30T04:06:55.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-06-30T06:36:55.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-06-30T07:13:55.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1085",
+    "customer_id": "CUS1066",
+    "thread_id": "THR58125",
+    "issue": "Payment failed but amount deducted from bank account",
+    "priority": "HIGH",
+    "status": "Resolved",
+    "assigned_to": "Agent-D",
+    "created_at": "2023-11-27T11:42:19.000Z",
+    "resolution": "UPI transaction failure investigated with payment gateway. Amount credited back to customer wallet. Technical team notified to prevent recurrence. Issue resolved.",
+    "updates": [
+      {
+        "time": "2023-11-27T14:42:19.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-11-27T19:01:19.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      },
+      {
+        "time": "2023-11-27T23:26:19.000Z",
+        "status": "Agent Agent-D is actively investigating the issue."
+      },
+      {
+        "time": "2023-11-28T03:14:19.000Z",
+        "status": "Agent Agent-D is working on the resolution."
+      },
+      {
+        "time": "2023-11-28T04:33:19.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1086",
+    "customer_id": "CUS1059",
+    "thread_id": "THR72064",
+    "issue": "Account locked due to repeated failed login attempts",
+    "priority": "MEDIUM",
+    "status": "Resolved",
+    "assigned_to": "Agent-C",
+    "created_at": "2023-04-22T18:08:13.000Z",
+    "resolution": "2FA delivery issue resolved. Problem traced to SMS gateway failure. Backup authentication method enabled. Customer regained access. SMS provider notified.",
+    "updates": [
+      {
+        "time": "2023-04-22T19:46:13.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-04-22T21:31:13.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      },
+      {
+        "time": "2023-04-23T03:20:13.000Z",
+        "status": "Agent Agent-C is actively investigating the issue."
+      },
+      {
+        "time": "2023-04-23T07:27:13.000Z",
+        "status": "Agent Agent-C is working on the resolution."
+      },
+      {
+        "time": "2023-04-23T08:55:13.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1087",
+    "customer_id": "CUS1051",
+    "thread_id": "THR94367",
+    "issue": "GST not applied correctly on billing statement",
+    "priority": "HIGH",
+    "status": "Resolved",
+    "assigned_to": "Agent-D",
+    "created_at": "2024-12-20T16:37:41.000Z",
+    "resolution": "Consolidated invoice for all orders generated and sent to registered email. Duplicate billing entry removed. Corrected statement updated in customer portal.",
+    "updates": [
+      {
+        "time": "2024-12-21T00:11:41.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-12-21T03:12:41.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      },
+      {
+        "time": "2024-12-21T08:50:41.000Z",
+        "status": "Agent Agent-D is actively investigating the issue."
+      },
+      {
+        "time": "2024-12-21T12:00:41.000Z",
+        "status": "Agent Agent-D is working on the resolution."
+      },
+      {
+        "time": "2024-12-21T13:13:41.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1088",
+    "customer_id": "CUS1079",
+    "thread_id": "THR51891",
+    "issue": "Customer unable to login after password reset",
+    "priority": "MEDIUM",
+    "status": "Assigned",
+    "assigned_to": "Agent-A",
+    "created_at": "2023-05-24T10:22:01.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2023-05-24T17:02:01.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-05-24T18:41:01.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1089",
+    "customer_id": "CUS1010",
+    "thread_id": "THR96032",
+    "issue": "Payment failed but amount deducted from bank account",
+    "priority": "HIGH",
+    "status": "Investigating",
+    "assigned_to": "Agent-A",
+    "created_at": "2024-07-06T19:31:56.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-07-06T22:13:56.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-07-07T00:38:56.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      },
+      {
+        "time": "2024-07-07T06:16:56.000Z",
+        "status": "Agent Agent-A is actively investigating the issue."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1090",
+    "customer_id": "CUS1004",
+    "thread_id": "THR62058",
+    "issue": "Payment failed but amount deducted from bank account",
+    "priority": "CRITICAL",
+    "status": "Resolved",
+    "assigned_to": "Agent-D",
+    "created_at": "2023-09-08T23:10:37.000Z",
+    "resolution": "Duplicate charge identified in billing records. Second transaction of reversed successfully. Refund initiated to original payment method. Customer confirmed receipt.",
+    "updates": [
+      {
+        "time": "2023-09-09T05:14:37.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-09-09T07:10:37.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      },
+      {
+        "time": "2023-09-09T13:36:37.000Z",
+        "status": "Agent Agent-D is actively investigating the issue."
+      },
+      {
+        "time": "2023-09-09T16:13:37.000Z",
+        "status": "Agent Agent-D is working on the resolution."
+      },
+      {
+        "time": "2023-09-09T16:52:37.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1091",
+    "customer_id": "CUS1031",
+    "thread_id": "THR58550",
+    "issue": "Two-factor authentication code not being received",
+    "priority": "MEDIUM",
+    "status": "Resolved",
+    "assigned_to": "Agent-B",
+    "created_at": "2024-06-05T01:12:51.000Z",
+    "resolution": "2FA delivery issue resolved. Problem traced to SMS gateway failure. Backup authentication method enabled. Customer regained access. SMS provider notified.",
+    "updates": [
+      {
+        "time": "2024-06-05T07:13:51.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-06-05T13:49:51.000Z",
+        "status": "Ticket assigned to Agent-B for investigation."
+      },
+      {
+        "time": "2024-06-05T15:57:51.000Z",
+        "status": "Agent Agent-B is actively investigating the issue."
+      },
+      {
+        "time": "2024-06-05T21:09:51.000Z",
+        "status": "Agent Agent-B is working on the resolution."
+      },
+      {
+        "time": "2024-06-05T23:47:51.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1092",
+    "customer_id": "CUS1083",
+    "thread_id": "THR94044",
+    "issue": "Wallet balance deducted, order not confirmed",
+    "priority": "CRITICAL",
+    "status": "Resolved",
+    "assigned_to": "Agent-D",
+    "created_at": "2023-08-15T10:28:40.000Z",
+    "resolution": "Payment failure confirmed due to gateway timeout. Amount of has been reversed to source account. Transaction reconciled and customer notified. Expected credit in 3-5 business days.",
+    "updates": [
+      {
+        "time": "2023-08-15T17:26:40.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-08-16T01:04:40.000Z",
+        "status": "Ticket assigned to Agent-D for investigation."
+      },
+      {
+        "time": "2023-08-16T02:22:40.000Z",
+        "status": "Agent Agent-D is actively investigating the issue."
+      },
+      {
+        "time": "2023-08-16T05:23:40.000Z",
+        "status": "Agent Agent-D is working on the resolution."
+      },
+      {
+        "time": "2023-08-16T09:38:40.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1093",
+    "customer_id": "CUS1034",
+    "thread_id": "THR62758",
+    "issue": "Enterprise features not accessible after plan upgrade",
+    "priority": "HIGH",
+    "status": "Closed",
+    "assigned_to": "Agent-C",
+    "created_at": "2023-11-29T02:52:24.000Z",
+    "resolution": "Subscription activation delay resolved. Payment confirmed but activation job had failed silently. Manually triggered. Customer account now shows active subscription with correct expiry.",
+    "updates": [
+      {
+        "time": "2023-11-29T06:50:24.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-11-29T07:42:24.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      },
+      {
+        "time": "2023-11-29T14:07:24.000Z",
+        "status": "Agent Agent-C is actively investigating the issue."
+      },
+      {
+        "time": "2023-11-29T18:57:24.000Z",
+        "status": "Agent Agent-C is working on the resolution."
+      },
+      {
+        "time": "2023-11-29T19:41:24.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2023-11-30T01:52:24.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1094",
+    "customer_id": "CUS1096",
+    "thread_id": "THR82007",
+    "issue": "Enterprise features not accessible after plan upgrade",
+    "priority": "HIGH",
+    "status": "Closed",
+    "assigned_to": "Agent-A",
+    "created_at": "2023-01-25T10:37:08.000Z",
+    "resolution": "Subscription cancellation option restored after frontend bug fix. Customer successfully cancelled. Final invoice generated. Access retained till end of paid period.",
+    "updates": [
+      {
+        "time": "2023-01-25T15:08:08.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-01-25T20:05:08.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      },
+      {
+        "time": "2023-01-26T01:59:08.000Z",
+        "status": "Agent Agent-A is actively investigating the issue."
+      },
+      {
+        "time": "2023-01-26T02:52:08.000Z",
+        "status": "Agent Agent-A is working on the resolution."
+      },
+      {
+        "time": "2023-01-26T04:42:08.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2023-01-26T06:58:08.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1095",
+    "customer_id": "CUS1004",
+    "thread_id": "THR61079",
+    "issue": "Fraudulent charge reported by customer",
+    "priority": "CRITICAL",
+    "status": "Resolved",
+    "assigned_to": "Agent-C",
+    "created_at": "2023-10-20T04:54:34.000Z",
+    "resolution": "Investigation confirmed unauthorized access. All unrecognized charges totaling refunded to original payment method. Account credentials reset and security audit completed.",
+    "updates": [
+      {
+        "time": "2023-10-20T05:40:34.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-10-20T13:10:34.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      },
+      {
+        "time": "2023-10-20T14:43:34.000Z",
+        "status": "Agent Agent-C is actively investigating the issue."
+      },
+      {
+        "time": "2023-10-20T16:00:34.000Z",
+        "status": "Agent Agent-C is working on the resolution."
+      },
+      {
+        "time": "2023-10-20T23:51:34.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1096",
+    "customer_id": "CUS1098",
+    "thread_id": "THR54801",
+    "issue": "Refund approved but not reflecting in bank statement",
+    "priority": "MEDIUM",
+    "status": "Assigned",
+    "assigned_to": "Agent-A",
+    "created_at": "2024-11-18T09:28:46.000Z",
+    "resolution": null,
+    "updates": [
+      {
+        "time": "2024-11-18T15:30:46.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-11-18T21:58:46.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1097",
+    "customer_id": "CUS1003",
+    "thread_id": "THR55729",
+    "issue": "Tax exemption certificate not applied to account",
+    "priority": "MEDIUM",
+    "status": "Closed",
+    "assigned_to": "Agent-A",
+    "created_at": "2023-05-20T16:41:35.000Z",
+    "resolution": "Invoice discrepancy identified as incorrect GST calculation. Revised invoice generated and sent. Difference of credited to customer account. Billing team notified.",
+    "updates": [
+      {
+        "time": "2023-05-20T19:30:35.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-05-20T23:46:35.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      },
+      {
+        "time": "2023-05-21T03:26:35.000Z",
+        "status": "Agent Agent-A is actively investigating the issue."
+      },
+      {
+        "time": "2023-05-21T11:00:35.000Z",
+        "status": "Agent Agent-A is working on the resolution."
+      },
+      {
+        "time": "2023-05-21T11:56:35.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2023-05-21T19:30:35.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1098",
+    "customer_id": "CUS1006",
+    "thread_id": "THR55429",
+    "issue": "Net banking payment stuck in pending state",
+    "priority": "HIGH",
+    "status": "Closed",
+    "assigned_to": "Agent-B",
+    "created_at": "2023-11-10T03:00:17.000Z",
+    "resolution": "Net banking payment reconciled. Amount was held by intermediary bank. Released and credited to customer account. Invoice updated to reflect correct payment status.",
+    "updates": [
+      {
+        "time": "2023-11-10T05:48:17.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2023-11-10T08:42:17.000Z",
+        "status": "Ticket assigned to Agent-B for investigation."
+      },
+      {
+        "time": "2023-11-10T12:02:17.000Z",
+        "status": "Agent Agent-B is actively investigating the issue."
+      },
+      {
+        "time": "2023-11-10T19:44:17.000Z",
+        "status": "Agent Agent-B is working on the resolution."
+      },
+      {
+        "time": "2023-11-11T00:52:17.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      },
+      {
+        "time": "2023-11-11T05:14:17.000Z",
+        "status": "Ticket closed after customer confirmation."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1099",
+    "customer_id": "CUS1052",
+    "thread_id": "THR66488",
+    "issue": "Account merged incorrectly with another user profile",
+    "priority": "CRITICAL",
+    "status": "Resolved",
+    "assigned_to": "Agent-A",
+    "created_at": "2024-12-05T21:45:27.000Z",
+    "resolution": "2FA delivery issue resolved. Problem traced to SMS gateway failure. Backup authentication method enabled. Customer regained access. SMS provider notified.",
+    "updates": [
+      {
+        "time": "2024-12-05T22:15:27.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-12-05T23:24:27.000Z",
+        "status": "Ticket assigned to Agent-A for investigation."
+      },
+      {
+        "time": "2024-12-06T04:53:27.000Z",
+        "status": "Agent Agent-A is actively investigating the issue."
+      },
+      {
+        "time": "2024-12-06T07:04:27.000Z",
+        "status": "Agent Agent-A is working on the resolution."
+      },
+      {
+        "time": "2024-12-06T11:15:27.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  },
+  {
+    "ticket_id": "TKT1100",
+    "customer_id": "CUS1047",
+    "thread_id": "THR90388",
+    "issue": "Customer unable to login after password reset",
+    "priority": "CRITICAL",
+    "status": "Resolved",
+    "assigned_to": "Agent-C",
+    "created_at": "2024-05-21T00:19:58.000Z",
+    "resolution": "Login issue resolved by clearing cached credentials from backend. Customer able to login successfully. Advised to clear browser cache and update password periodically.",
+    "updates": [
+      {
+        "time": "2024-05-21T03:10:58.000Z",
+        "status": "Ticket received and logged in the system."
+      },
+      {
+        "time": "2024-05-21T10:16:58.000Z",
+        "status": "Ticket assigned to Agent-C for investigation."
+      },
+      {
+        "time": "2024-05-21T13:29:58.000Z",
+        "status": "Agent Agent-C is actively investigating the issue."
+      },
+      {
+        "time": "2024-05-21T17:35:58.000Z",
+        "status": "Agent Agent-C is working on the resolution."
+      },
+      {
+        "time": "2024-05-21T19:30:58.000Z",
+        "status": "Issue resolved. Resolution shared with customer."
+      }
+    ]
+  }
+]

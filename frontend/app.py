@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 from streamlit_lottie import st_lottie
 
-# --- CONFIGURATION ---
+# CONFIGURATION 
 BASE_URL = "http://192.168.1.125:8000"
 API_URL = f"{BASE_URL}/chat"
 
@@ -17,7 +17,7 @@ st.set_page_config(
     layout="wide"
 )
 
-# --- CALLBACK FUNCTIONS ---
+# CALLBACK FUNCTIONS 
 
 def load_selected_chat(thread_id):
     """Callback to load a past chat transcript."""
@@ -57,7 +57,7 @@ def submit_feedback_callback(rating, customer_id, thread_id, msg_index):
     except Exception as e:
         st.error(f"Feedback error: {e}")
 
-# --- LOAD LOTTIE ---
+# LOAD LOTTIE 
 BASE_DIR = Path(__file__).resolve().parent
 
 def load_lottie():
@@ -69,7 +69,7 @@ def load_lottie():
 
 robot_animation = load_lottie()
 
-# --- SESSION STATE INITIALIZATION ---
+# SESSION STATE INITIALIZATION 
 if "messages" not in st.session_state:
     st.session_state.messages = []
 if "thread_id" not in st.session_state:
@@ -77,7 +77,7 @@ if "thread_id" not in st.session_state:
 if "customer_id" not in st.session_state:
     st.session_state.customer_id = "CUS1001" 
 
-# --- SIDEBAR ---
+# SIDEBAR 
 with st.sidebar:
     st.title(":material/settings: Support Controls")
     st.markdown("---")
@@ -130,7 +130,7 @@ with st.sidebar:
     except:
         st.error("History Offline")
 
-# --- HEADER ---
+#  HEADER 
 col_h1, col_h2 = st.columns([4, 1])
 with col_h1:
     st.title("🤖 Agentic Customer Support System")
@@ -139,7 +139,7 @@ with col_h2:
     if robot_animation:
         st_lottie(robot_animation, height=100, key="robot")
 
-# --- CHAT DISPLAY ---
+#  CHAT DISPLAY 
 for i, message in enumerate(st.session_state.messages):
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
@@ -182,7 +182,7 @@ for i, message in enumerate(st.session_state.messages):
                             use_container_width=True # Fills only the tiny 0.5 column
                         )
 
-# --- INPUT AREA ---
+# INPUT AREA 
 prompt = st.chat_input("Ask your question...")
 
 if prompt:

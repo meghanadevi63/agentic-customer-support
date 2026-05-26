@@ -177,7 +177,7 @@ def chat(
     )
 
 
-    # --- NEW: Save the interaction to MongoDB Atlas after response is generated ---
+    
     save_interaction(
         customer_id=request.customer_id,
         thread_id=request.thread_id,
