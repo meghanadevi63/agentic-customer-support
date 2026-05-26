@@ -168,15 +168,19 @@ for i, message in enumerate(st.session_state.messages):
             if not message.get("feedback_submitted", False):
                 st.write("---")
                 st.caption("How was your experience with this response?")
-                f_cols = st.columns(5)
+                
+               
+                f_cols = st.columns([3, 3, 3, 3, 3, 10.0])
+                
                 for val in range(1, 6):
-                    f_cols[val-1].button(
-                        f"{val} ⭐", 
-                        key=f"rate_{val}_{i}_{st.session_state.thread_id}", # Key unique to message index
-                        on_click=submit_feedback_callback,
-                        args=(val, st.session_state.customer_id, st.session_state.thread_id, i),
-                        use_container_width=True
-                    )
+                    with f_cols[val-1]:
+                        st.button(
+                            f"{val}⭐", 
+                            key=f"rate_{val}_{i}_{st.session_state.thread_id}",
+                            on_click=submit_feedback_callback,
+                            args=(val, st.session_state.customer_id, st.session_state.thread_id, i),
+                            use_container_width=True # Fills only the tiny 0.5 column
+                        )
 
 # --- INPUT AREA ---
 prompt = st.chat_input("Ask your question...")
